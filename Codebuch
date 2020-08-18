@@ -1,0 +1,141 @@
+##Codebuch
+
+Stand: 25.06.20
+Erstellt von Paula Longin, Matrikelnummer: 32550
+
+
+
+#Ursprung und Datenerhebung
+
+Der Datensatz spiegelt die im Geschäftsjahr 2019 zum Vorstand berufenen DAX Vorstände, ihren beruflichen sowie akademischen Werdegang und ihre öffentlich einsehbaren Mitgliedschaften wieder.
+
+Die Daten stammen von den offiziellen Steckbriefen der Vorstände, veröffentlicht durch die DAX Unternehmen. Zudem wurden sie mit Einträgen im Munzinger Archiv, Wikipedia, Bloomberg und LinkedIn abgeglichen.
+
+Das Netzwerk ist ein gerichtetes Two-Mode Netzwerk. 
+
+Insgesamt umfasst das Gesamtnetzwerk 798 Akteure. Darunter befinden sich 34 CEOs/Vorstandsvorsitzende, 158 Vorstandsmitglieder, 339 Unternehmen und 169 Bildungseinrichtungen. Im Netzwerk werden 1147 Beziehungen zwischen den Akteuren abgebildet.
+
+
+#EDGE-Attribute
+
+'Id'
+Eindeutige Codierung des Knoten
+
+'relation'
+1= CEO/ Vorstandsvorsitz
+2= Vorstandsmitglied
+3= Ausbildungsort (Akademischer Werdegang)
+4= ehemaliger Arbeitnehmer (Beruflicher Werdegang)
+5= Aufsichtsratsmitglied
+6= Mitglied*
+
+*keine Unterscheidung ob es eine ehemalige Mitgliedschaft ist, da hier nur die Art der Beziehung relevant ist
+
+#NODE-Attribute
+
+'Id'
+Identische ID wie aus der edgelist zur Identifikation der Knoten. 
+
+'label'
+Offizieller Name des Akteurs
+
+
+'type'
+1= CEO/ Vorstandsvorsitzender 
+2= Vorstand 
+3= Unternehmen
+4= Bildungseinrichtung
+5= Verband oder Stiftung
+6= Forschungszentrum
+7= Akademische Verbindung/ Studentenverbindung
+8= Partei/ Gewerkschaft
+9= Internationale Arbeitsorganisation/ Staatl. Einrichtung
+
+'dax'
+0= nein
+1= ja
+
+'industry'
+1= Automotive
+2= Chemie/ Life Science / Medizin
+3= Konsumer
+4= Energie
+5= Financial Services
+6= Industrie
+7= Logistik
+8= Technologie
+9= Bildung
+10= Sport
+11= Politik/Kunst/Kultur
+12= Beratung/ Dienstleistungen
+13= Touristik
+14= Rechtswesen
+15= Telekommunikation
+16= Militär
+
+'age'
+Alter in Zahlen zum Zeitpunkt Juni 2020
+NA= Not applicable (es handelt sich um eine Institution)
+
+'sex'
+1= männlich
+2= weiblich
+NA= Not applicable (es handelt sich um eine Institution)
+
+
+
+'doctorate'
+0= nein
+1= ja 
+NA= Not applicable (es handelt sich um eine Institution)
+
+
+
+'heritage'*
+1= Deutschland
+2= UK
+3= USA
+4= Niederlande
+5= Serbien
+6= Frankreich
+7= Österreich
+8= Schweden
+9= Schweiz
+10= Indien
+11= Spanien
+12= Dänemark
+13= Australien
+14= Belgien
+15= China
+16= Venezuela
+17= Pakistan
+18= Bulgarien
+19= Italien
+20= Türkei
+21= Chile
+22= Polen
+23=Brasilien
+24= Kanada
+25= Tschechien
+26= Island
+27= Japan
+28= Irland
+29= Singapur
+30= Taiwan
+31= Luxemburg
+
+*richtet sich bei Unternehmen nach Unternehmenssitz
+
+'europe'
+0=nein
+1=ja
+
+'study'
+0= kein Studium
+1= Wirtschaftswissenschaften (BWL / VWL / Management /...) 
+2= Jura / Rechtswissenschaften
+3= Maschinenbau / Ingenieurwesen /Informatik
+4= Naturwissenschaften / Mathematik
+5= Medizin
+6= Geisteswissenschaften
+NA= Not applicable (es handelt sich um eine Institution)
