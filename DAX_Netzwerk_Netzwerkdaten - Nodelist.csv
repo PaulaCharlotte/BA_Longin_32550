@@ -1,0 +1,799 @@
+id,label,type,dax,industry,age,sex,doctorate,heritage,europe,study
+360_Treasury_Systems,360 Treasury Systems,3,0,5,NA,NA,NA,1,1,NA
+3M,3M,3,0,8,NA,NA,NA,3,0,NA
+Aarhus_School_of_Business,Aarhus School of Business,4,0,9,NA,NA,NA,12,1,NA
+ABI,Italian Banking Association,5,0,5,NA,NA,NA,19,1,NA
+Abott_Laboratories,Abbott Laboratories,3,0,2,NA,NA,NA,3,0,NA
+acatech,Deutsche Akademie der Technikwissenschaften,4,0,8,NA,NA,NA,1,1,NA
+Accenture,Accenture,3,0,12,NA,NA,NA,28,1,NA
+ACEA,European Automobile Manufacturers Accociation,5,0,1,NA,NA,NA,14,1,NA
+Achim_Kassow,Achim Kassow,2,1,5,54,1,1,1,1,1
+Adaire_Fox_Martin,Adaire Fox-Martin,2,1,8,56,2,0,13,0,6
+Adel_Al_Saleh,Adel Al-Saleh,2,1,8,57,1,0,3,0,3
+adidas,adidas,3,1,3,NA,NA,NA,1,1,NA
+Aerospace,Deutsche Aerospace,3,0,7,NA,NA,NA,1,1,NA
+AGH_Krakau,Berg- und Hüttenakademie Krakau,4,0,9,NA,NA,NA,22,1,NA
+AGV_Banken,Arbeitgeberverband des privaten Bankgewerbes,5,0,5,NA,NA,NA,1,1,NA
+Airbus,Airbus,3,0,7,NA,NA,NA,4,1,NA
+Akcansa,Akcansa,3,0,6,NA,NA,NA,20,1,NA
+AkzoNobel,AkzoNobel,3,0,2,NA,NA,NA,4,1,NA
+Alania_Stuttgart,Alania Stuttgart,7,0,9,NA,NA,NA,1,1,NA
+Alcatel_Lucent,Alcatel-Lucent,3,0,8,NA,NA,NA,2,1,NA
+Aldi_Sued,Aldi Süd,3,0,3,NA,NA,NA,1,1,NA
+Alexander_von_Knoop,Alexander von Knoop,2,1,5,48,1,0,1,1,1
+ALK,ALK,3,0,2,NA,NA,NA,12,1,NA
+Allergy_Therapeutics,Allergy Therapeutics,3,0,2,NA,NA,NA,2,1,NA
+Allfonds_International_Asset_Management,Allfonds International Asset Management,3,0,5,NA,NA,NA,1,1,NA
+Allianz,Allianz,3,1,5,NA,NA,NA,1,1,NA
+AmCham,American Chamber of Commerce in Germany,5,0,11,NA,NA,NA,1,1,NA
+Ampirion,Ampirion,3,0,4,NA,NA,NA,1,1,NA
+Analytab_Products,Analytab Products,3,0,2,NA,NA,NA,3,0,NA
+Andreas_Kanning,Andreas Kanning,2,1,5,56,1,0,1,1,1
+Andreas_Opfermann,Andreas Opfermann,2,1,6,NA,1,0,1,1,4
+Andreas_Renschler,Andreas Renschler,2,1,1,62,1,0,1,1,3
+Andreas_Wendt,Andreas Wendt,2,1,1,61,1,1,1,1,3
+Andreas_Wimmer,Andreas Wimmer,2,1,5,46,1,1,1,1,1
+Anne_Roby,Anne Roby,2,1,6,52,2,0,3,0,4
+Annington_Immobilien,Annington Immobilien,3,0,5,NA,NA,NA,1,1,NA
+ANSYS,ANSYS,3,0,8,NA,NA,NA,3,0,NA
+APA,Asien Pazifik Ausschuss der Deutschen Wirtschaft,5,0,11,NA,NA,NA,1,1,NA
+Apax_Partners,Apax Partners,3,0,5,NA,NA,NA,2,1,NA
+Arcandor,Arcandor,3,0,9,NA,NA,NA,1,1,NA
+Ariane_Reinhart,Ariane Reinhart,2,1,1,51,2,1,1,1,2
+Arnd_Fittkau,Arnd Fittkau,2,1,5,47,1,0,1,1,0
+Arvato,Arvato,3,0,7,NA,NA,NA,1,1,NA
+Asim_Naseer,Asim Naseer,2,1,3,51,1,0,17,0,1
+ASML_N_V,ASML,3,0,8,NA,NA,NA,4,1,NA
+Audi,Audi,3,0,1,NA,NA,NA,1,1,NA
+Austrian_Airlines,Austrian Airlines,3,0,7,NA,NA,NA,7,1,NA
+Austroplan,Austroplan,3,0,6,NA,NA,NA,7,1,NA
+AVACON,AVACON,3,0,4,NA,NA,NA,1,1,NA
+Aventis_Pharma,Aventis,3,0,2,NA,NA,NA,6,1,NA
+AVW_Versicherungsmakler,AVW Versicherungsmakler,3,0,5,NA,NA,NA,1,1,NA
+AXA,AXA,3,0,5,NA,NA,NA,6,1,NA
+Axxom_Software,Axxom Software,3,0,8,NA,NA,NA,1,1,NA
+Aylin_Somersan_Coqui,Aylin Somersan Coqui,2,1,5,44,2,0,20,1,1
+Bacardi,Bacardi,3,0,3,NA,NA,NA,2,1,NA
+Baer_Karrer,Bär Karrer,3,0,12,NA,NA,NA,9,1,NA
+BAIC_Motor_Corporation,Beijing Motor Corporation,3,0,1,NA,NA,NA,15,0,NA
+Bain_Co,Bain & Company,3,0,12,NA,NA,NA,3,0,NA
+Banco_Bilbao_Vizcaya_Argentaria,Banco Bilbao Vizcaya Argentaria,3,0,5,NA,NA,NA,11,1,NA
+Bankakademie,Bankakademie,4,0,5,NA,NA,NA,1,1,NA
+Barmenia,Barmenia,3,0,5,NA,NA,NA,1,1,NA
+BASF,BASF,3,1,2,NA,NA,NA,1,1,NA
+BAVC,Bundesarbeitgeberverband Chemie e. V.,5,0,11,NA,NA,NA,1,1,NA
+Baxter_Healthcare_Corporation,Baxter International,3,0,2,NA,NA,NA,3,0,NA
+Bayer,Bayer,3,1,2,NA,NA,NA,1,1,NA
+Bayernwerk,Bayernwerk,3,0,4,NA,NA,NA,1,1,NA
+BBS,BBS,3,0,1,NA,NA,NA,1,1,NA
+BBUG,Baden-Badener Unternehmer Gespräche,5,0,11,NA,NA,NA,1,1,NA
+BCG,Boston Consulting Group,3,0,12,NA,NA,NA,3,0,NA
+BDA,Bundesvereinigung der Deutschen Arbeitgeberverbände,5,0,11,NA,NA,NA,1,1,NA
+BdB,Bundesverband deutscher Banken,5,0,5,NA,NA,NA,1,1,NA
+BDEW,Bundesverband der Energie- und Wasserwirtschaft,5,0,4,NA,NA,NA,1,1,NA
+BDI,Bundesverband der Deutschen Industrie,5,0,NA,NA,NA,NA,1,1,NA
+Behr,Behr,3,0,1,NA,NA,NA,1,1,NA
+Beiersdorf,Beiersdorf,3,1,3,NA,NA,NA,1,1,NA
+Belen_Garijo,Belén Garijo,2,1,3,60,2,0,11,1,5
+Benecke_Kaliko,Benecke Kaliko,3,0,1,NA,NA,NA,1,1,NA
+Berliner_Philharmoniker,Berliner Philharmoniker eV,5,0,11,NA,NA,NA,1,1,NA
+Bernd_Heinemann,Bernd Heinemann,2,1,5,54,1,0,1,1,4
+Bernd_Leukert,Bernd Leukert,2,1,5,53,1,0,1,1,3
+Bertelsmann,Bertelsmann,3,0,11,NA,NA,NA,1,1,NA
+Bharti_Airtel_India,Bharti Airtel,3,0,15,NA,NA,NA,10,0,NA
+BHF_Bank,Oddo BHF,3,0,5,NA,NA,NA,6,1,NA
+BIH,Berliner Institut für Gesundheitsforschung,6,0,2,NA,NA,NA,1,1,NA
+Bill_McDermott,Bill McDermott,1,1,8,59,1,0,3,0,1
+Biogen,Biogen,3,0,2,NA,NA,NA,3,0,NA
+Biotronik,Biotronik,3,0,2,NA,NA,NA,1,1,NA
+Birgit_Bohle,Birgit Bohle,2,1,8,47,2,0,1,1,1
+Bitkom,Bundesverband Informationswirtschaft Telekommunikation und neue Medien,5,0,12,NA,NA,NA,1,1,NA
+Blackstone,Blackstone,3,0,5,NA,NA,NA,3,0,NA
+Blue_Dart_Express,Blue Dart Express,3,0,7,NA,NA,NA,10,0,NA
+BMW,BMW,3,1,1,NA,NA,NA,1,1,NA
+BNY_Mellon,Bank of New York Mellon,3,0,5,NA,NA,NA,3,0,NA
+BOC,BOC Group,3,0,2,NA,NA,NA,7,1,NA
+Bosch,Robert Bosch ,3,0,3,NA,NA,NA,1,1,NA
+BP,BP,3,0,2,NA,NA,NA,2,1,NA
+Brian_Grevy,Brian Grevy,2,1,3,49,1,0,12,1,1
+Britta_Seeger,Britta Seeger,2,1,1,51,2,0,1,1,1
+Bruno_Piacenza,Bruno Piacenza,2,1,3,55,1,0,6,1,1
+Brussels_Airlines,Brussels Airlines,3,0,7,NA,NA,NA,14,1,NA
+BSK,Börsensachverständigenkommission,5,0,5,NA,NA,NA,1,1,NA
+BT_Group,British Telecommunications,3,0,15,NA,NA,NA,2,1,NA
+Bundesdruckerei,Bundesdruckerei,9,0,5,NA,NA,NA,1,1,NA
+BUWOG,BUWOG,3,0,5,NA,NA,NA,7,1,NA
+BVV_Versicherungsverein,BVV Versicherungsverein,3,0,5,NA,NA,NA,1,1,NA
+BVV_Versorgungskasse,BVV Versorgungskasse,3,0,5,NA,NA,NA,1,1,NA
+Cable_Wireless,Cable Wireless,3,0,15,NA,NA,NA,2,1,NA
+Canakkale_Cimento,Canakkale Cimento,3,0,6,NA,NA,NA,20,1,NA
+Capital_One,Capital One,3,0,5,NA,NA,NA,3,0,NA
+Carsten_Knobel,Carsten Knobel,2,1,3,51,1,0,1,1,1
+Carsten_Spohr,Carsten Spohr,1,1,7,54,1,0,1,1,3
+CD_Medical,CD Medical,3,0,2,NA,NA,NA,3,0,NA
+CDU_Wirtschaftsrat,CDU Wirtschaftsrat,5,0,11,NA,NA,NA,1,1,NA
+Cedacri,Cedacri,3,0,8,NA,NA,NA,19,1,NA
+Cedrik_Neike,Cedrik Neike,2,1,6,47,1,0,1,1,3
+CEFIC,European Chemical Industry Council,5,0,2,NA,NA,NA,14,1,NA
+CEINEX,China Europe International Exchange AG,3,0,5,NA,NA,NA,1,1,NA
+Charite,Charite,3,0,2,NA,NA,NA,1,1,NA
+Chiron,Chiron,3,0,2,NA,NA,NA,3,0,NA
+Chris_Ward,Chris Ward,2,1,6,48,1,0,3,0,3
+Christan_Sewing,Christan Sewing,1,1,5,50,1,0,1,1,1
+Christian_Klein,Christian Klein,1,1,8,40,1,0,1,1,1
+Christian_Koetz,Christian Kötz,2,1,1,50,1,0,1,1,3
+Christian_P_Illek,Christian P. Illek,2,1,8,56,1,1,1,1,1
+Christiana_Riley,Christiana Riley,2,1,5,42,2,0,3,0,1
+Christina_Foerster,Christina Foerster,2,1,7,48,2,0,1,1,1
+Christoph_Boehm,Christoph Böhm,2,1,5,54,1,1,1,1,3
+Christoph_Jurecka,Christoph Jurecka,2,1,5,46,1,1,1,1,4
+Ciba,Ciba,3,0,2,NA,NA,NA,9,1,NA
+Citibank,Citibank,3,0,5,NA,NA,NA,3,0,NA
+Citigroup,Citigroup,3,0,5,NA,NA,NA,3,0,NA
+Clarkson_University,Clarkson University,4,0,9,NA,NA,NA,3,0,NA
+Claudia_Nemat,Claudia Nemat,2,1,8,52,2,0,1,1,4
+Clearstream,Clearstream,3,0,5,NA,NA,NA,31,1,NA
+CocaCola,The Coca-Cola Company,3,0,3,NA,NA,NA,3,0,NA
+Cognis,Cognis,3,0,2,NA,NA,NA,1,1,NA
+College_Guildford,College Guildford,4,0,9,NA,NA,NA,2,1,NA
+CombiCare_BV,Combicare,3,0,2,NA,NA,NA,4,1,NA
+Comdirect_Bank,Comdirect Bank,3,0,5,NA,NA,NA,1,1,NA
+Commerzbank,Commerzbank,3,0,5,NA,NA,NA,1,1,NA
+Compaq,Compaq,3,0,8,NA,NA,NA,3,0,NA
+Consumer_Goods_Forum,Consumer Goods Forum,5,0,3,NA,NA,NA,6,1,NA
+Continental,Continental,3,1,1,NA,NA,NA,1,1,NA
+Contrast_Management_Consulting,Contrast Management Consulting ,3,0,5,NA,NA,NA,7,1,NA
+ConvaTec,ConvaTec,3,0,2,NA,NA,NA,2,1,NA
+Converge,Converge,3,0,7,NA,NA,NA,3,0,NA
+Copenhagen_Business_School,Copenhagen Business School,4,0,9,NA,NA,NA,12,1,NA
+Cornell_University,Cornell University,4,0,9,NA,NA,NA,3,0,NA
+Covestro,Covestro,3,1,2,NA,NA,NA,1,1,NA
+Covidien_Pte,Covidien,3,0,2,NA,NA,NA,28,1,NA
+CPPIB,Canada Pension Plan Investment Board,3,0,5,NA,NA,NA,24,0,NA
+Cranfield_School_of_Management,Cranfield School of MaNAgement,4,0,9,NA,NA,NA,2,1,NA
+CSFB,Credit Suisse,3,0,5,NA,NA,NA,9,1,NA
+Currenta,Currenta,3,0,2,NA,NA,NA,1,1,NA
+DAI,Deutsches Aktien Institut,5,0,5,NA,NA,NA,1,1,NA
+Daimler,Daimler,3,1,1,NA,NA,NA,1,1,NA
+Daimler_Mobility,Daimler Mobility,3,0,5,NA,NA,NA,1,1,NA
+DaimlerChrysler_Bank,DaimlerChrysler Bank,3,0,5,NA,NA,NA,1,1,NA
+Dana_Incorporated,Dana,3,0,1,NA,NA,NA,3,0,NA
+Daniel_Riedl,Daniel Riedl,2,1,5,51,1,0,7,1,1
+Danville_Urologic_Clinic,Danville Urologic Clinic,3,0,2,NA,NA,NA,3,0,NA
+Danzas_Logistics,Danzas Logistics,3,0,7,NA,NA,NA,9,1,NA
+Davide_Campari_Milano_Spa,Davide Campari-Milano,3,0,3,NA,NA,NA,19,1,NA
+Davidson_College,Davidson College,4,0,9,NA,NA,NA,3,0,NA
+DBV_Winterthur,DBV-Winterthur ,3,0,5,NA,NA,NA,1,1,NA
+debis,debis,3,0,12,NA,NA,NA,1,1,NA
+Dell,Dell,3,0,8,NA,NA,NA,3,0,NA
+Dessi_Temperley,Dessi Temperley,2,1,3,47,2,0,18,1,1
+Detlef_Kayser,Detlef Kayser,2,1,7,55,1,1,1,1,3
+Deutsch_Tuerkisches_Forum_Stuttgart,Deutsch Türkisches Forum Stuttgart,5,0,11,NA,NA,NA,1,1,NA
+Deutsche_Bahn,Deutsche Bahn,3,0,7,NA,NA,NA,1,1,NA
+Deutsche_Bank,Deutsche Bank,3,1,5,NA,NA,NA,1,1,NA
+Deutsche_Boerse,Deutsche Börse,3,1,5,NA,NA,NA,1,1,NA
+Deutsche_Bundeswehr,Deutsche Bundeswehr,3,0,16,NA,NA,NA,1,1,NA
+Deutsche_Messe,Deutsche Messe,3,0,3,NA,NA,NA,1,1,NA
+Deutsche_Post,Deutsche Post,3,1,7,NA,NA,NA,1,1,NA
+Deutsche_Postbank,Deutsche Postbank,3,0,5,NA,NA,NA,1,1,NA
+Deutsche_Sporthilfe,Stiftung Deutsche Sporthilfe,5,0,10,NA,NA,NA,1,1,NA
+Deutsche_Telekom,Deutsche Telekom,3,1,8,NA,NA,NA,1,1,NA
+DFKI,Deutsches Forschungszentrum für Künstliche Intelligenz,6,0,9,NA,NA,NA,1,1,NA
+DFMG,Deutsche Funkturm,3,0,15,NA,NA,NA,1,1,NA
+DGFP,Deutsche Gesellschaft für Personalführung,5,0,11,NA,NA,NA,1,1,NA
+DHBW,Duale Hoschule Baden-Württemberg,4,0,9,NA,NA,NA,1,1,NA
+Dieter_Zetsche,Dieter Zetsche,1,1,1,67,1,1,1,1,3
+Dirk_Woessner,Dirk Wössner,2,1,8,51,1,1,1,1,4
+DLP,Deutsche Luftverkehrs Privatstiftung,5,0,7,NA,NA,NA,1,1,NA
+DLR,Deutsches Zentrum für Luft- und Raumfahrt,6,0,8,NA,NA,NA,1,1,NA
+Dominik_von_Achten,Dominik von Achten,1,1,6,55,1,1,1,1,2
+Doris_Hoepke,Doris Höpke,2,1,5,54,2,1,1,1,2
+Dowling_College,Dowling College,4,0,9,NA,NA,NA,3,0,NA
+Draeger_Medical,Dräger Medical,3,0,2,NA,NA,NA,1,1,NA
+DrOetker,Dr. Oetker,3,0,3,NA,NA,NA,1,1,NA
+DRSC,Deutsches Rechnungslegungs Standards Committee eV,5,0,5,NA,NA,NA,1,1,NA
+DSiN,Deutschland sicher im Netz,5,0,11,NA,NA,NA,1,1,NA
+DSM,DSM,3,0,2,NA,NA,NA,4,1,NA
+Dublin_City_University,Dublin City University,4,0,9,NA,NA,NA,28,1,NA
+Duke_University,Duke University,4,0,9,NA,NA,NA,3,0,NA
+DV,Deutscher Verband für Wohnungswesen,5,0,5,NA,NA,NA,1,1,NA
+DWS,DWS,3,0,5,NA,NA,NA,1,1,NA
+E_DIS,E.DIS,3,0,4,NA,NA,NA,1,1,NA
+E_Plus,E-Plus,3,0,15,NA,NA,NA,1,1,NA
+EC_Erdoelchemie,EC Erdölchemie,3,0,2,NA,NA,NA,1,1,NA
+Ecolab,Ecolab,3,0,3,NA,NA,NA,3,0,NA
+econsense,econsense,5,0,11,NA,NA,NA,1,1,NA
+Eduardo_Menezes,Eduardo Menezes,2,1,6,55,1,0,23,1,1
+EEX,European Energy Exchange,3,0,4,NA,NA,NA,1,1,NA
+EFPIA,European Federation of Pharmaceutical Industries and Associations,5,0,2,NA,NA,NA,14,1,NA
+Elmar_Degenhart,Elmar Degenhart,1,1,1,61,1,1,1,1,3
+EMB,EMB,3,0,12,NA,NA,NA,1,1,NA
+Emerson_Electric,Emerson Electric Company,3,0,6,NA,NA,NA,3,0,NA
+EON,E.ON,3,1,4,NA,NA,NA,1,1,NA
+EOS,EOS,3,0,5,NA,NA,NA,1,1,NA
+EQT,EQT,3,0,5,NA,NA,NA,8,1,NA
+Equinix,Equinix,3,0,5,NA,NA,NA,3,0,NA
+ERGO,ERGO,3,0,5,NA,NA,NA,1,1,NA
+ErgoScience,Ergo Science,3,0,2,NA,NA,NA,3,0,NA
+Ernest_Jelito,Ernest Jelito,2,1,6,62,1,0,22,1,3
+Ernst_Wastler,Ernst Wastler,2,1,2,62,1,1,7,1,1
+Ernst_Young,Ernst & Young,3,0,12,NA,NA,NA,2,1,NA
+ERT,European Round Table for Industry,5,0,6,NA,NA,NA,14,1,NA
+esade,esade,4,0,9,NA,NA,NA,11,1,NA
+ESC_Nizza,ESC Nizza,4,0,9,NA,NA,NA,6,1,NA
+ESCP,ESCP Business School,4,0,9,NA,NA,NA,6,1,NA
+ESIA,Europäischen Halbleiterindustrieverbands,5,0,8,NA,NA,NA,14,1,NA
+ESMT_Berlin,European School of MaNAgement and Technology Berlin,4,0,9,NA,NA,NA,1,1,NA
+ESSEC_Business_School,ESSEC Business School,4,0,9,NA,NA,NA,6,1,NA
+Esselte,Esselte,3,0,3,NA,NA,NA,31,1,NA
+ETH_Zuerich,ETH Zürich,4,0,9,NA,NA,NA,9,1,NA
+EUR,Erasmus Universität Rotterdam,4,0,9,NA,NA,NA,4,1,NA
+Eurelectric,Eurelectric,5,0,4,NA,NA,NA,14,1,NA
+Eurex,Eurex,3,0,5,NA,NA,NA,1,1,NA
+Eurocell,Eurocell,3,0,3,NA,NA,NA,1,1,NA
+Europa_Lebensversicherung,Europa Lebensversicherung,3,0,5,NA,NA,NA,1,1,NA
+Europaeische_Stiftung_Kaiserdom_zu_Speyer,Europäische Stiftung Kaiserdom zu Speyer,5,0,11,NA,NA,NA,1,1,NA
+Eurowings,Eurowings,3,0,7,NA,NA,NA,1,1,NA
+EXTREMUS_VersicherungsAG,Extremus-Versicherung,3,0,5,NA,NA,NA,1,1,NA
+Fabio_de_Ferrari,Fabio de Ferrari,1,1,5,55,1,0,19,1,3
+Fabrizio_Campelli,Fabrizio Campelli,2,1,5,47,1,0,2,1,1
+FC_Bayern_Muenchen,FC Bayern München,5,0,10,NA,NA,NA,1,1,NA
+FCI,Fonds der Chemischen Industrie,5,0,2,NA,NA,NA,1,1,NA
+Fenwal,Fenwal,3,0,2,NA,NA,NA,3,0,NA
+FH_Darmstadt,Fachhochschule Darmstadt,4,0,9,NA,NA,NA,1,1,NA
+FH_Kempten,FH Kempten,4,0,9,NA,NA,NA,1,1,NA
+FH_Ludwigshafen,Fachhochschule Ludwigshafen,4,0,9,NA,NA,NA,1,1,NA
+FH_Muenchen,Fachhochschule München,4,0,9,NA,NA,NA,1,1,NA
+FH_Muenster,FH Münster,4,0,9,NA,NA,NA,1,1,NA
+FH_Steinfurt,Fachhoschule Steinfurt,4,0,9,NA,NA,NA,1,1,NA
+FHWS,FH Würzburg Schweinsfurt,4,0,9,NA,NA,NA,1,1,NA
+Fisher_Scientific,Fisher Scientific,3,0,2,NA,NA,NA,3,0,NA
+Florida_Atlantic_University,Florida Atlantic University,4,0,9,NA,NA,NA,3,0,NA
+Ford,Ford,3,0,1,NA,NA,NA,3,0,NA
+Francesco_De_Meo,Francesco De Meo,2,1,2,57,1,1,1,1,2
+Frank_Appel,Frank Appel,1,1,7,59,1,1,1,1,4
+Frank_Jourdan,Frank Jourdan,2,1,1,60,1,0,1,1,3
+Frank_Kuhnke,Frank Kuhnke,2,1,5,44,1,0,1,1,1
+Frank_Sommerfeld,Frank Sommerfeld,2,1,5,51,1,0,1,1,1
+Frank_Witter,Frank Witter,2,1,1,61,1,0,1,1,1
+Frankfurt_Main_Finance_eV,Frankfurt Main Finance eV,5,0,5,NA,NA,NA,1,1,NA
+Frankfurt_School_of_Finance,Frankfurt School of Finance,4,0,9,NA,NA,NA,1,1,NA
+Frankfurter_Versicherung,Frankfurter Versicherung,3,0,5,NA,NA,NA,1,1,NA
+Franklin_W_Maddux,Franklin W. Maddux,2,1,2,63,1,0,3,0,5
+Fraport,Fraport,3,0,7,NA,NA,NA,1,1,NA
+Frauenhofer_Institut,Frauenhofer Institut,6,0,9,NA,NA,NA,1,1,NA
+Fresenius,Fresenius ,3,1,2,NA,NA,NA,1,1,NA
+Fresenius_Kabi,Fresenius Kabi,3,0,2,NA,NA,NA,1,1,NA
+Fresenius_Medical_Care,Fresenius Medical Care,3,1,2,NA,NA,NA,1,1,NA
+Freunde_der_TU_Muenchen,Bund der Freunde der Technischen Universität München,5,0,9,NA,NA,NA,1,1,NA
+Friedrich_Ebert_Stiftung,Friedrich-Ebert-Stiftung,5,0,11,NA,NA,NA,1,1,NA
+Friends_of_the_Deutsche_Oper_am_Rhein,Friends of the Deutsche Oper am Rhein,5,0,11,NA,NA,NA,1,1,NA
+Futurium,Futurium,5,0,11,NA,NA,NA,1,1,NA
+Gagfah,Gagfah,3,0,5,NA,NA,NA,31,1,NA
+Gambro_Healthcare,Gambro,3,0,2,NA,NA,NA,8,1,NA
+Gamewood_Technology,Gamewoo Technology,3,0,8,NA,NA,NA,3,0,NA
+GANT,Gant,3,0,3,NA,NA,NA,8,1,NA
+GARP,Global Association of Risk ProfessioNAls,5,0,9,NA,NA,NA,3,0,NA
+Gartner,Gartner,3,0,12,NA,NA,NA,3,0,NA
+General_Electric,General Electric,3,0,8,NA,NA,NA,3,0,NA
+Generation_CEO,Generation CEO eV,5,0,11,NA,NA,NA,1,1,NA
+GenTek,GenTek,3,0,6,NA,NA,NA,24,0,NA
+GENYOUth_Foundation,GENYOUth,5,0,11,NA,NA,NA,3,0,NA
+Georgsmarienhuette_Holding,Georgsmarienhütte Unternehmensgruppe,3,0,6,NA,NA,NA,1,1,NA
+Gestione_Sistemi_Infornatici,Gestione Sistemi Infornatici,3,0,8,NA,NA,NA,19,1,NA
+GEW,Gewerkschaft Erziehung und Wissenschaft,8,0,11,NA,NA,NA,1,1,NA
+GfK,GfK,6,0,12,NA,NA,NA,1,1,NA
+GlaxoSmithKline,GlaxoSmithKline,3,0,2,NA,NA,NA,2,1,NA
+Goethe_Institut,Goethe Institut,6,0,9,NA,NA,NA,1,1,NA
+Goldfinch_Bio,Goldfinch Bio,3,0,2,NA,NA,NA,3,0,NA
+Goldman_Sachs,Goldman Sachs,3,0,5,NA,NA,NA,3,0,NA
+Gothenburg_School_of_Economics,Handelshochschule Göteborg,4,0,9,NA,NA,NA,8,1,NA
+Greater_Boston_Chamber_of_Commerce,Greater Boston Chamber of Commerce,5,0,11,NA,NA,NA,3,0,NA
+Greenhill,Greenhill,3,0,5,NA,NA,NA,3,0,NA
+Gregor_Pottmeyer,Gregor Pottmeyer,2,1,5,58,1,0,1,1,1
+GRUENEN,Bündnis 90/Die Grünen,8,0,11,NA,NA,NA,1,1,NA
+Gunnar_Kilian,Gunnar Kilian,2,1,1,45,1,0,1,1,0
+Hakan_Gurdal,Hakan Gurdal,2,1,6,52,1,0,20,1,3
+Hans_Martin_Schleyer_Stiftung,Hans Martin Schleyer Stiftung,5,0,9,NA,NA,NA,1,1,NA
+Hans_Ulrich_Engel,Hans Ulrich Engel,2,1,2,61,1,1,1,1,2
+Hans_Van_Bylen,Hans Van Bylen,1,1,3,59,1,0,14,1,1
+Hansewerk,Hansewerk,3,0,4,NA,NA,NA,1,1,NA
+Hanson_Building_Materials,Hanson Building Materials,3,0,6,NA,NA,NA,3,0,NA
+Hapag_Lloyd,Hapag-Lloyd,3,0,7,NA,NA,NA,1,1,NA
+Harald_Krueger,Harald Krüger,1,1,1,54,1,0,1,1,3
+Harald_Wilhelm,Harald Wilhelm,2,1,1,54,1,0,1,1,1
+Harm_Ohlmeyer,Harm Ohlmeyer,2,1,3,52,1,0,1,1,1
+Harper_Adams_University,Harper Adams University,4,0,9,NA,NA,NA,2,1,NA
+Harry_de_Wit,Harry de Wit,2,1,2,58,1,0,4,1,5
+Harry_Hohmeister,Harry Hohmeister,2,1,7,56,1,0,1,1,0
+Harvard_Business_School,Harvard Business School,4,0,9,NA,NA,NA,3,0,NA
+Hasso_Plattner_Institut,Hasso Plattner Institut,4,0,9,NA,NA,NA,1,1,NA
+HASTRA,Hastra,3,0,4,NA,NA,NA,1,1,NA
+Hauke_Stars,Hauke Stars,2,1,5,53,1,0,1,1,3
+HDI,Haftpflichtverband der Deutschen Industrie,5,0,6,NA,NA,NA,1,1,NA
+Health_IT_Service,Healthe IT Services,3,0,8,NA,NA,NA,1,1,NA
+HEC_Paris,HEC Paris,4,0,9,NA,NA,NA,6,1,NA
+HeidelbergCement,HeidelbergCement,3,1,6,NA,NA,NA,1,1,NA
+Heiko_Schipper,Heiko Schipper,2,1,2,51,1,0,4,1,1
+Heineken,Heineken,3,0,3,NA,NA,NA,4,1,NA
+Helen_Giza,Helen Giza,2,1,2,52,2,0,2,1,1
+Helene_von_Roeder,Helene von Roeder,2,1,5,50,2,0,1,1,4
+Helios_Kliniken,Hlios Kliniken,3,0,2,NA,NA,NA,1,1,NA
+Helmstedter_Blitz,Helmstedter Blitz,3,0,11,NA,NA,NA,1,1,NA
+Helmut_Gassel,Helmut Gassel,2,1,8,56,1,1,1,1,4
+Helmut_Matschi,Helmut Matschi,2,1,1,57,1,0,1,1,3
+Hembla_AB,Hembla ,3,0,5,NA,NA,NA,8,1,NA
+Hengeler_Mueller,Hengeler Mueller,3,0,14,NA,NA,NA,1,1,NA
+Henkel,Henkel,3,1,3,NA,NA,NA,1,1,NA
+Henley_Business_School,Henley Business School,4,0,9,NA,NA,NA,2,1,NA
+Herbert_Diess,Herbert Diess,1,1,1,62,1,1,7,1,3
+Hessischer_Kreis_eV,Hessischer Kreis eV,5,0,11,NA,NA,NA,1,1,NA
+Hiltrud_Dorothea_Werner,Hiltrud Dorothea Werner,2,1,1,54,2,0,1,1,1
+HJ_Duensing,Hans-Jürgen Duensing,2,1,1,62,1,0,1,1,1
+Hochtief,Hochtief,3,0,6,NA,NA,NA,1,1,NA
+Hoechst,Hoechst,3,0,2,NA,NA,NA,1,1,NA
+HP,HP,3,0,8,NA,NA,NA,3,0,NA
+HS_Bremen,HS Bremen,4,0,9,NA,NA,NA,1,1,NA
+HS_Esslingen,Hochschule Esslingen,4,0,9,NA,NA,NA,1,1,NA
+Hubertus_Troska,Hubertus Troska,2,1,1,60,1,0,1,1,1
+Humacyte,Humacyte,3,0,2,NA,NA,NA,3,0,NA
+IAEA,Internationale Atomenergie-Organisation,5,0,4,NA,NA,NA,7,1,NA
+IBM,IBM,3,0,12,NA,NA,NA,3,0,NA
+ICAEW,Institute of Chartered Accountants,4,0,9,NA,NA,NA,2,1,NA
+ICC_Germany,Internationale Handelskammer Deutschland,5,0,11,NA,NA,NA,1,1,NA
+Ichcape_plc,Inchcape,3,0,1,NA,NA,NA,2,1,NA
+If_E,Innovationsforum Energiewende,5,0,4,NA,NA,NA,1,1,NA
+IFPMA,International Federation of Pharmaceutical Manufacturers & Associations,5,0,2,NA,NA,NA,9,1,NA
+IFRI,International Financial Risk Institute,5,0,5,NA,NA,NA,9,1,NA
+Igel,Akademische Verbindung Igel,7,0,9,NA,NA,NA,1,1,NA
+IHK_Koeln,Industrie- und Handelskammer zu Köln,9,0,11,NA,NA,NA,1,1,NA
+IIM_Ahmedabad,Indian Institute of Management Ahmedabad,4,0,9,NA,NA,NA,10,0,NA
+Ilka_Horstmeier,Ilka Horstmeier,2,1,1,51,1,0,1,1,1
+Illinois_National_Bank,Ilinois National Bank,3,0,5,NA,NA,NA,3,0,NA
+IMD,International Institute for MaNAgement Development,4,0,9,NA,NA,NA,9,1,NA
+Immofinanz,Immofinanz,3,0,5,NA,NA,NA,7,1,NA
+IMS_Health,IMS Health,3,0,2,NA,NA,NA,3,0,NA
+Indian_Institute_of_Management,Indian Institute of Management,4,0,9,NA,NA,NA,10,0,NA
+Indiana_University,Indiana University,4,0,9,NA,NA,NA,1,1,NA
+Infineon,Infineon,3,1,8,NA,NA,NA,1,1,NA
+InforMed_Data_Systems,InforMed Data Systems,3,0,2,NA,NA,NA,3,0,NA
+Initiative_Chefsache,Initiative Chefsache,5,0,NA,NA,NA,NA,1,1,NA
+innogy,innogy,3,0,4,NA,NA,NA,1,1,NA
+Innovative_Health_Strategies,Innovative Healt Strategies,3,0,2,NA,NA,NA,24,0,NA
+Inpro,Inpro,3,0,8,NA,NA,NA,1,1,NA
+INSEAD,Insead Business School,4,0,9,NA,NA,NA,6,1,NA
+Institute_of_Chartered_Accountants_India,Institute of Chartered Accountants India,4,0,9,NA,NA,NA,10,0,NA
+Insurance_Development_Forum,Insurance Development Forum,5,0,5,NA,NA,NA,2,1,NA
+Inter_Pipeline,Inter Pipeline,3,0,2,NA,NA,NA,24,0,NA
+International_Labour_Organization,Internationale Arbeitsorganisation,9,0,11,NA,NA,NA,9,1,NA
+ITM_Power,ITM Power,3,0,4,NA,NA,NA,2,1,NA
+ITT_Automotive,ITT Automotive,3,0,1,NA,NA,NA,1,1,NA
+ITT_Inc,ITT Inc,3,0,8,NA,NA,NA,3,0,NA
+Jaeger,Jaeger,3,0,6,NA,NA,NA,1,1,NA
+James_Madison_University,James Madison University,4,0,9,NA,NA,NA,3,0,NA
+James_von_Moltke,James von Moltke,2,1,5,51,1,0,1,1,1
+Jan_Dirk_Auris,Jan-Dirk Auris,2,1,3,52,1,0,1,1,0
+Jan_Marsalek,Jan Marsalek,2,1,5,40,1,0,7,1,0
+Jennifer_Morgan,Jennifer Morgan,1,1,8,49,2,0,3,0,1
+Jens_Martin_Schwaerzler,Jens-Martin Schwärzler,2,1,3,57,1,0,1,1,1
+Joachim_Wenning,Joachim Wenning,1,1,5,55,1,1,1,1,1
+Jochen_Hanebeck,Jochen Hanebeck,2,1,8,52,1,0,1,1,3
+Joe_Kaeser,Joe Kaeser,1,1,6,63,1,0,1,1,1
+Johannes_Teyssen,Johannes Teyssen,1,1,4,61,1,1,1,1,2
+John_Crane_Packing,John Crane,3,0,6,NA,NA,NA,3,0,NA
+John_Pearson,John Pearson,2,1,7,57,1,0,2,1,1
+Johnson_Johnson,Johnson & Johnson,3,0,2,NA,NA,NA,3,0,NA
+Jon_Morrish,Jon Morrish,2,1,6,50,1,0,2,1,4
+JP_Morgan,JP Morgan,3,0,5,NA,NA,NA,3,0,NA
+Juergen_Goetz,Jürgen Götz,2,1,2,56,1,1,1,1,2
+Juergen_Mueller,Jürgen Müller,2,1,8,38,1,0,1,1,3
+Juergen_Nowicki,Juergen Nowicki,2,1,6,55,1,0,1,1,3
+Kaerntner_Energieholding,Kärntner Energieholding,3,0,4,NA,NA,NA,7,1,NA
+Kai_Beckmann,Kai Beckmann,2,1,3,55,1,1,1,1,1
+Karen_Parkin,Karen Parkin,2,1,3,55,2,0,2,1,6
+Karl_von_Rohr,Karl von Rohr,2,1,5,55,1,0,1,1,2
+Karstadt,Karstadt,3,0,3,NA,NA,NA,1,1,NA
+Karsten_Wildberger,Karsten Wildberger,2,1,4,51,1,1,1,1,4
+Kasper_Rorsted,Kasper Rørsted,1,1,3,58,1,0,12,1,1
+Katarzyna_Mazur_Hofsaess,Katarzyna Mazur-Hofsäß,2,1,2,57,2,1,1,1,5
+Katja_de_la_Vina,Katja de la Viña,2,1,5,41,2,0,1,1,1
+Keiper_Recaro,Keiper Recardo,3,0,1,NA,NA,NA,1,1,NA
+KELAG,KELAG,3,0,4,NA,NA,NA,7,1,NA
+Kellogg_School_of_Management,Kellogg School of MaNAgement,4,0,8,NA,NA,NA,3,0,NA
+Ken_Allen,Ken Allen,2,1,7,65,1,0,2,1,0
+Kent_Wanzek,Kent Wanzek,2,1,2,61,1,0,3,0,1
+Kevin_Gluskie,Kevin Gluskie,2,1,6,53,1,0,13,0,3
+Kion,Kion,3,0,6,NA,NA,NA,1,1,NA
+KIT,Karlsruher Institut für Technologie,4,0,9,NA,NA,NA,1,1,NA
+Klaus_Froehlich,Klaus Fröhlich,2,1,1,60,1,0,1,1,3
+Klaus_Helmrich,Klaus Helmrich,2,1,6,62,1,0,1,1,3
+Klaus_Schaefer,Klaus Schäfer,2,1,2,58,1,1,1,1,4
+Koetter,Kötter,3,0,6,NA,NA,NA,1,1,NA
+KPMG,KPMG,3,0,12,NA,NA,NA,4,1,NA
+Kraft,Kraft,3,0,3,NA,NA,NA,3,0,NA
+Kuehne_Nagel,Kühne + NAgel,3,0,7,NA,NA,NA,9,1,NA
+L_Oreal,L'Oréal,3,0,3,NA,NA,NA,6,1,NA
+Labesfal,Labesfal,3,0,2,NA,NA,NA,3,0,NA
+LADW,Lateinamerika-Ausschuss der Deutschen Wirtschaft,5,0,11,NA,NA,NA,1,1,NA
+Lafarge,Lafarge,3,0,6,NA,NA,NA,6,1,NA
+Lancaster_University,Lancaster University,4,0,9,NA,NA,NA,2,1,NA
+Landgericht_Traunstein,Landgericht Traunstein,3,0,14,NA,NA,NA,1,1,NA
+Lanxess,Lanxess,3,0,2,NA,NA,NA,1,1,NA
+Lars_Wagner,Lars Wagner,2,1,6,45,1,0,1,1,3
+LBBW,Landesbank Baden-Württemberg,3,0,5,NA,NA,NA,1,1,NA
+Lego,Lego,3,0,3,NA,NA,NA,12,1,NA
+Leonhard_Birnbaum,Leonhard Birnbaum,2,1,4,53,1,1,1,1,4
+Liam_Condon,Liam Condon,2,1,2,52,1,0,2,1,1
+Linde,Linde,3,1,6,NA,NA,NA,1,1,NA
+Lition,Lition,3,0,4,NA,NA,NA,1,1,NA
+LMU,Ludwigs-Maximilians-Universität München,4,0,9,NA,NA,NA,1,1,NA
+London_Business_School,London Business School,4,0,9,NA,NA,NA,2,1,NA
+London_School_of_Economics,London School of Economics,4,0,9,NA,NA,NA,2,1,NA
+Lorenz_Naeger,Lorenz Näger,2,1,6,60,1,1,1,1,1
+Loyola_University,Loyola University,4,0,9,NA,NA,NA,3,0,NA
+Lufthansa,Lufthansa,3,1,7,NA,NA,NA,1,1,NA
+Lufthansa_CityLine,Lufthansa CityLine,3,0,7,NA,NA,NA,1,1,NA
+Luigi_Bocconi_Mailand,Wirtschaftsuniversität Luigi Bocconi,4,0,9,NA,NA,NA,19,1,NA
+Luka_Mucic,Luka Mucic,2,1,8,49,1,0,1,1,2
+Maggi,Maggi,3,0,3,NA,NA,NA,9,1,NA
+MAN,Man,3,0,1,NA,NA,NA,1,1,NA
+Mannheim_Business_School,Mannheim Business School,4,0,9,NA,NA,NA,1,1,NA
+Marc_Spieker,Marc Spieker,2,1,4,45,1,1,1,1,1
+Marco_Swoboda,Marco Swoboda,2,1,3,49,1,0,1,1,1
+Marcus_Kuhnert,Marcus Kuhnert,2,1,3,52,1,0,3,0,3
+Markus_Braun,Markus Braun,1,1,5,51,1,1,7,1,3
+Markus_Duesmann,Markus Duesmann,2,1,1,51,1,0,1,1,3
+Markus_Kamieth,Markus Kamieth,2,1,2,50,1,1,1,1,4
+Markus_Krebber,Markus Krebber,2,1,4,47,1,1,1,1,1
+Markus_Riess,Markus Rieß,2,1,5,54,1,1,1,1,1
+Markus_Schaefer,Markus Schäfer,2,1,1,55,1,0,1,1,3
+Markus_Steilemann,Markus Steilemann,1,1,2,50,1,1,1,1,4
+Marshall_School_of_Business,Marshall School of Business,4,0,9,NA,NA,NA,3,0,NA
+Martin_Brudermueller,Martin Brudermüller,1,1,2,59,1,1,1,1,4
+Martin_Daum,Martin Daum,2,1,1,42,1,0,1,1,1
+Martin_Shankland,Martin Shankland,2,1,3,49,1,0,13,0,1
+Massachusetts_Biotechnology_Council,Massachusetts Biotechnology Council,5,0,2,NA,NA,NA,3,0,NA
+Massachusetts_High_Technology_Council,Massachusetts High Technology Council,5,0,8,NA,NA,NA,3,0,NA
+Mats_Henriksson,Mats Henriksson,2,1,2,53,1,0,8,1,1
+Matt_White,Matt White,2,1,6,47,1,0,3,0,1
+Max_Planck_Gesellschaft,Max-Planck-Gesellschaft,5,0,9,NA,NA,NA,1,1,NA
+McGill_University,McGill University,4,0,9,NA,NA,NA,24,0,NA
+McKinsey,McKinsey & Company,3,0,12,NA,NA,NA,3,0,NA
+Medos_Medizintechnik,Medos Medizintechnik,3,0,2,NA,NA,NA,1,1,NA
+Melanie_Kreis,Melanie Kreis,2,1,7,49,2,0,1,1,4
+Mercedes_Benz_Bank,Mercedes-Benz Bank,3,0,5,NA,NA,NA,1,1,NA
+Merck,Merck,3,1,3,NA,NA,NA,1,1,NA
+Mercury_Asset_Management,Mercury Asset Management,3,0,5,NA,NA,NA,2,1,NA
+Merrill_Lynch,Merrill Lynch,3,0,5,NA,NA,NA,3,0,NA
+Metro_Holding,Metro,3,0,3,NA,NA,NA,1,1,NA
+Michael_Heinz,Michael Heinz,2,1,2,56,1,0,1,1,1
+Michael_Niggemann,Michael Niggemann,2,1,7,46,1,1,1,1,2
+Michael_Schreyoegg,Michael Schreyögg,2,1,6,54,1,0,1,1,3
+Microsoft,Microsoft,3,0,8,NA,NA,NA,3,0,NA
+Milan_Nedeljkovic,Milan Nedeljkovic,2,1,1,51,1,1,5,1,3
+MiliporeSigma,MiliporeSigma,3,0,2,NA,NA,NA,3,0,NA
+Mississippi_College,Mississippi College,4,0,9,NA,NA,NA,3,0,NA
+MIT,Massachusetts Institute of Technology,4,0,9,NA,NA,NA,3,0,NA
+MIT_Sloan_School,MIT Management School,4,0,9,NA,NA,NA,3,0,NA
+MLU,Martin-Luther-Universität Halle-Wittenberg,4,0,9,NA,NA,NA,1,1,NA
+Morgan_Stanley,Morgan Stanley,3,0,5,NA,NA,NA,3,0,NA
+MSD,MSD,3,0,2,NA,NA,NA,3,0,NA
+MSU,Michigan State University,4,0,9,NA,NA,NA,3,0,NA
+MTU_Aero_Engines,MTU Aero Engines,3,1,6,NA,NA,NA,1,1,NA
+Mummert_Partner,Mummert Partner,3,0,12,NA,NA,NA,1,1,NA
+Munich_RE,Munich RE,3,1,5,NA,NA,NA,1,1,NA
+Murray_State_University,Murray State University,4,0,9,NA,NA,NA,3,0,NA
+MVV_Energie,MVV Energie,3,0,4,NA,NA,NA,1,1,NA
+NAF,National Academy Foundation ,5,0,11,NA,NA,NA,3,0,NA
+National_Taiwan_Normal_University,National Taiwan Normal University,4,0,9,NA,NA,NA,30,0,NA
+NCEC,National Chemical Emergency Center,9,0,2,NA,NA,NA,2,1,NA
+Nedlloyd,Nedlloyd,3,0,7,NA,NA,NA,2,1,NA
+Nestle,Nestle,3,0,3,NA,NA,NA,9,1,NA
+New_Asia_Investments_Pte,New Asia Investments,3,0,5,NA,NA,NA,29,0,NA
+NewRe,Neue Rückversicherungs-Gesellschaft,3,0,5,NA,NA,NA,1,1,NA
+Nicholas_Gartside,Nicholas Gartside,2,1,5,45,1,0,2,1,6
+Nicolas_Peter,Nicolas Peter,2,1,1,58,1,1,1,1,2
+Nikolai_Setzer,Nikolai Setzer,2,1,1,49,1,0,1,1,3
+Nina_Klingspor,NiNA Klingspor,2,1,5,51,2,0,1,1,1
+Nord_Stream,Nord Stream,3,0,4,NA,NA,NA,9,1,NA
+Northwestern_University,Northwestern University,4,0,9,NA,NA,NA,3,0,NA
+Novartis,Novartis,3,0,2,NA,NA,NA,9,1,NA
+NPE,Nationale Plattform Elektromobilität,5,0,1,NA,NA,NA,1,1,NA
+NXP_Semiconductors,NXP Semiconductors,3,0,8,NA,NA,NA,4,1,NA
+OAOEV,Ost-Ausschuss – Osteuropaverein der Deutschen Wirtschaft,5,0,11,NA,NA,NA,1,1,NA
+Oberlandesgericht_Muenchen,Oberlandesgericht München,3,0,14,NA,NA,NA,1,1,NA
+OELP,Österreichische Luftverkehrs-Privatstiftung,5,0,7,NA,NA,NA,7,1,NA
+Ola_Kaellenius,Ola Källenius,1,1,1,51,1,0,8,1,1
+Olaf_Schermeier,Olaf Schermeier,2,1,2,48,1,1,1,1,3
+Oldenburgische_Landesbank,Oldenburgische Landesbank,3,0,5,NA,NA,NA,1,1,NA
+OLG_Hamm,Oberlandesgericht Hamm,3,0,14,NA,NA,NA,1,1,NA
+Oliver_Blume,Oliver Blume,2,1,1,52,1,1,1,1,3
+Oliver_Zipse,Oliver Zipse,1,1,1,56,1,0,1,1,3
+Oracle,Oracle,3,0,8,NA,NA,NA,3,0,NA
+Oscar_de_Bok,Oscar de Bok,2,1,7,44,1,0,4,1,1
+OSRAM,OSRAM,3,0,8,NA,NA,NA,1,1,NA
+OTH,Ostbayerische Technische Hochschule Regensburg ,4,0,9,NA,NA,NA,1,1,NA
+PAETEC_Communications,PaeTec,3,0,15,NA,NA,NA,3,0,NA
+Pennsylvania_State_University,Pennsylvania State University,4,0,9,NA,NA,NA,3,0,NA
+PepsiCo,PepsiCo,3,0,3,NA,NA,NA,3,0,NA
+PerkinElmer,PerkinElmer,3,0,2,NA,NA,NA,3,0,NA
+Peter_Kameritsch,Peter Kameritsch,2,1,6,51,1,0,1,1,4
+Peter_Roeder,Peter Röder,2,1,5,60,1,1,1,1,1
+Pharmacia_Upjohn,Pharmacia & Upjohn,3,0,2,NA,NA,NA,3,0,NA
+Philip_Morris,Philip Morris,3,0,3,NA,NA,NA,3,0,NA
+Philips,Philips,3,0,8,NA,NA,NA,4,1,NA
+Philips_Medical_Systems,Philips Medizin Systeme,3,0,2,NA,NA,NA,4,1,NA
+Phoenix,Phoenix,3,0,2,NA,NA,NA,1,1,NA
+Phoenix_Compounding_Technology,Phoenix Compounding Technology,3,0,6,NA,NA,NA,1,1,NA
+PhRMA,Pharmaceutical Research and Manufacturers of America,3,0,2,NA,NA,NA,3,0,NA
+Pieter_Nota,Pieter Nota,2,1,1,55,1,0,4,1,1
+PIMCO_Europe,PIMCO_Europe,3,0,5,NA,NA,NA,2,1,NA
+Pioneer,Pioneer,3,0,8,NA,NA,NA,27,0,NA
+Pitzner_Gruppen_Holding,Pitzner,3,0,3,NA,NA,NA,12,1,NA
+Plactics_Europe,Plastics Europe,5,0,2,NA,NA,NA,1,1,NA
+Plattform_I40,Plattform I40,5,0,8,NA,NA,NA,1,1,NA
+Porsche,Porsche,3,0,1,NA,NA,NA,1,1,NA
+PPG_Industries,PPG Industries,3,0,6,NA,NA,NA,3,0,NA
+Praxair,Praxair,3,0,6,NA,NA,NA,3,0,NA
+PreussenElektra,PreussenElektra,3,0,4,NA,NA,NA,1,1,NA
+Princeton_University,Princeton University,4,0,9,NA,NA,NA,3,0,NA
+Procter_Gamble,Procter & Gamble,3,0,3,NA,NA,NA,3,0,NA
+PwC,PwC,3,0,12,NA,NA,NA,2,1,NA
+Qontigo,Qontigo,3,0,5,NA,NA,NA,1,1,NA
+Quercus_Acquisition,Quercus Acquisition,3,0,2,NA,NA,NA,2,1,NA
+Rachel_Empey,Rachel Empey,2,1,2,44,2,0,2,1,1
+Ralf_Thomas,Ralf P. Thomas,2,1,6,59,1,1,1,1,1
+Ramon_A_Mirt,Ramon A. Mirt ,2,1,3,55,1,0,16,0,1
+Rauser,Rauser,3,0,12,NA,NA,NA,1,1,NA
+Ravi_Spinnings_Limited,Ravi Spinnings Limited,3,0,6,NA,NA,NA,17,0,NA
+ReckittBenckiser,Reckitt Benckiser,3,0,3,NA,NA,NA,2,1,NA
+Reebok,Reebok,3,0,3,NA,NA,NA,3,0,NA
+Reiner_Winkler,Reiner Winkler,1,1,6,59,1,0,1,1,1
+Reinhard_Ploss,Reinhard Ploss,1,1,8,64,1,1,1,1,3
+Renata_Jungo_Bruengger,Renata Jungo Brüngger,2,1,1,59,2,0,6,1,5
+RheinEnergie,RheinEnergie,3,0,4,NA,NA,NA,1,1,NA
+Rheingau_Musikfestival,Rheingau Musikfestival,5,0,11,NA,NA,NA,1,1,NA
+rhenag,rhenag,3,0,4,NA,NA,NA,1,1,NA
+Rice_Powell,Rice Powell,1,1,2,65,1,0,3,0,4
+RICS,Royal Institution of Chartered Surveyors,5,0,5,NA,NA,NA,2,1,NA
+RNE,Rat für nachhaltige Entwicklung,5,0,11,NA,NA,NA,1,1,NA
+Robodent,Robodent,3,0,2,NA,NA,NA,1,1,NA
+Roche,Roche,3,0,2,NA,NA,NA,9,1,NA
+Rogers_Communication,Rogers Communication,3,0,15,NA,NA,NA,24,0,NA
+Roland_Auschel,Roland Auschel,2,1,3,57,1,0,1,1,1
+Roland_Berger_Partner,Roland Berger,3,0,12,NA,NA,NA,1,1,NA
+Roland_Busch,Roland Busch,2,1,6,56,1,1,1,1,4
+Rolf_Buch,Rolf Buch,1,1,5,55,1,0,1,1,3
+Rolf_Schmitz,Rolf Martin Schmitz,1,1,4,63,1,1,1,1,3
+Royal_Friesland_Campina,Royal Friesland Campina,3,0,3,NA,NA,NA,4,1,NA
+Rutgers_University,Rutgers University,4,0,9,NA,NA,NA,3,0,NA
+RWE,RWE,3,1,4,NA,NA,NA,1,1,NA
+RWTH,Rheinisch-Westfälisch Technischen Hochschule Aachen,4,0,8,NA,NA,NA,1,1,NA
+Salzgitter_AG,Salzgitter AG,3,0,6,NA,NA,NA,1,1,NA
+Sanjiv_Lamba,Sanjiv Lamba,2,1,6,56,1,0,10,0,1
+Sanofi,Sanofi,3,0,2,NA,NA,NA,6,1,NA
+Saori_Dubourg,Saori Dubourg,2,1,2,49,1,0,1,1,1
+SAP,SAP,3,1,8,NA,NA,NA,1,1,NA
+Schaeffler,Schaeffler Gruppe,3,0,1,NA,NA,NA,1,1,NA
+Schering,Schering,3,0,2,NA,NA,NA,1,1,NA
+Schroder_Investment_Management,Schroder,3,0,5,NA,NA,NA,2,1,NA
+Seat,Seat,3,0,1,NA,NA,NA,11,1,NA
+SerCon,SerCon,3,0,8,NA,NA,NA,1,1,NA
+Service_Now,ServiceNow,3,0,8,NA,NA,NA,3,0,NA
+Sheffield_Hallam_University,Sheffield Hallam University,4,0,9,NA,NA,NA,2,1,NA
+Shell,Shell,3,0,6,NA,NA,NA,4,1,NA
+Siebel,Siebel Systems,3,0,8,NA,NA,NA,3,0,NA
+Siemens,Siemens,3,1,6,NA,NA,NA,1,1,NA
+SIGNAL_IDUNA,Signal Iduna,3,0,5,NA,NA,NA,1,1,NA
+Silhouette_Intl_Schmied,Silhoutte International,3,0,3,NA,NA,NA,7,1,NA
+Skoda,Skoda,3,0,1,NA,NA,NA,25,1,NA
+Softlab,Softlab Group,3,0,8,NA,NA,NA,1,1,NA
+Specialty_Care,SpecialtyCare,3,0,2,NA,NA,NA,3,0,NA
+Springer_Nature,Spriner NAture,3,0,9,NA,NA,NA,1,1,NA
+Srini_Gopalan,Srini Gopalan,2,1,8,61,1,0,10,0,1
+Staatslehranstalt_Fotografie,Bayerischen Staatslehranstalt für Fotografie München,4,0,9,NA,NA,NA,1,1,NA
+Stadtwerke_Koeln,Stadtwerke Köln,3,0,4,NA,NA,NA,1,1,NA
+Staedtische_Buehnen_eV,Städtische Bühnen eV,5,0,11,NA,NA,NA,1,1,NA
+Stanford_University,Stanford University,4,0,9,NA,NA,NA,3,0,NA
+State_University_NY,State University New York,4,0,9,NA,NA,NA,3,0,NA
+Steag,Steag,3,0,4,NA,NA,NA,1,1,NA
+Stefan_de_Loecker,Stefan de Loecker,1,1,3,53,1,0,14,1,1
+Stefan_Oelrich,Stefan Oelrich,2,1,2,52,1,0,1,1,0
+Stefan_Oschmann,Stefan Oschmann,1,1,3,63,1,0,1,1,5
+Stefan_Sommer,Stefan Sommer,2,1,1,57,1,1,1,1,3
+Stephan_Leithner,Stephan Leithner,2,1,5,54,1,1,7,1,1
+Stephan_Sturm,Stephan Sturm,1,1,2,57,1,0,1,1,1
+Steve_Angel,Steve Angel,1,1,6,64,1,0,3,0,1
+Stifterverband,Stifterverband,5,0,9,NA,NA,NA,1,1,NA
+Stiftung_Universitaet_Heidelberg,Stiftung der Universität Heidelberg,5,0,9,NA,NA,NA,1,1,NA
+Still,Still,3,0,6,NA,NA,NA,1,1,NA
+Stockholm_School_of_Economics,Stockholm School of Economics,4,0,9,NA,NA,NA,8,1,NA
+Stuart_Lewis,Stuart Lewis,2,1,5,55,1,0,2,1,1
+Styrolution,INEOS Styrolution,3,0,2,NA,NA,NA,1,1,NA
+Sucheta_Govil,Sucheta Govil,2,1,2,57,2,0,2,1,1
+Susanne_Steidl,Susanne Steidl,2,1,5,49,2,0,7,1,1
+SusChem,SusChem,5,0,2,NA,NA,NA,14,1,NA
+Sven_Schneider,Sven Schneider,2,1,8,54,1,1,1,1,1
+Swedish_Match,Swedish Match,3,0,3,NA,NA,NA,8,1,NA
+Swiss_International_AirLines,Swiss International AirLines,3,0,7,NA,NA,NA,9,1,NA
+Sylvie_Nicol,Sylvie Nicol,2,1,3,47,2,0,6,1,1
+Syracuse_University,Syracuse University,4,0,9,NA,NA,NA,3,0,NA
+T_Mobile,T-Mobile,3,0,15,NA,NA,NA,7,1,NA
+Takeda_Pharmaceutical,Takeda Pharmaceutical,3,0,2,NA,NA,NA,27,0,NA
+TAP_Pharmaceutical_Products,TAP Pharmaceutical,3,0,2,NA,NA,NA,3,0,NA
+Telefonica,Telefonica,3,0,15,NA,NA,NA,1,1,NA
+Telstra,Telstra,3,0,15,NA,NA,NA,13,0,NA
+Tesco,Tesco,3,0,3,NA,NA,NA,2,1,NA
+Theodor_Weimer,Theodor Weimer,1,1,5,61,1,1,1,1,1
+Thomas_Blunck,Thomas Blunck,2,1,5,55,1,1,21,0,1
+Thomas_Book,Thomas Book,2,1,5,49,1,1,1,1,1
+Thomas_Ingelfinger,Thomas Ingelfinger,2,1,3,60,1,0,1,1,1
+Thomas_Koenig,Thomas König,2,1,4,55,1,1,1,1,1
+Thomas_Kremer,Thomas Kremer,2,1,8,61,1,1,1,1,2
+Thomas_Ogilvie,Thomas Ogilvie,2,1,7,44,1,1,1,1,6
+Thomas_Saueressig,Thomas Saueressig,2,1,8,35,1,0,1,1,3
+Thomas_Toepfer,Thomas Toepfer,2,1,2,48,1,1,1,1,1
+Thorsten_Dirks,Thorsten Dirks,2,1,7,57,1,0,1,1,3
+Thorsten_Langheim,Thorsten Langheim,2,1,8,54,1,0,1,1,1
+Thuemmel_Schuetze_Partner,Thümmel Schütz & Partner,3,0,14,NA,NA,NA,1,1,NA
+ThyssenKrupp,ThyssenKrupp,3,0,6,NA,NA,NA,1,1,NA
+Tiger_Electronics,Tiger Electronics,3,0,3,NA,NA,NA,3,0,NA
+Tim_Scharwath,Tim Scharwath,2,1,7,55,1,0,1,1,1
+Timotheus_Hoettges,Timotheus Höttges,1,1,8,58,1,0,1,1,1
+Tobias_Meyer,Tobias Meyer,2,1,7,45,1,1,1,1,3
+Tognum,Rolls-Royce Power Systems,3,0,1,NA,NA,NA,1,1,NA
+TomTom,TomTom,3,0,8,NA,NA,NA,4,1,NA
+Tongji_Universitaet_Schanghai,Tongji-Universität,4,0,9,NA,NA,NA,15,0,NA
+Topometrix,Topometrix,3,0,8,NA,NA,NA,3,0,NA
+Torsten_Jeworrek,Torsten Jeworrek,2,1,5,59,1,1,1,1,4
+Towers_Watson,Towers Watson,3,0,12,NA,NA,NA,2,1,NA
+Traton,Traton,3,0,1,NA,NA,NA,1,1,NA
+Trinity_College_Dublin,Trinity College Dublin,4,0,9,NA,NA,NA,28,1,NA
+TU_Berlin,TU Berlin,4,0,9,NA,NA,NA,1,1,NA
+TU_Braunschweig,TU Braunschweig,4,0,8,NA,NA,NA,1,1,NA
+TU_Copenhagen,Technische Universität Kopenhagen,4,0,9,NA,NA,NA,12,1,NA
+TU_Darmstadt,TU Darmstadt,4,0,8,NA,NA,NA,1,1,NA
+TU_Graz,TU Graz,4,0,9,NA,NA,NA,7,1,NA
+TU_Wien,TU Wien,4,0,9,NA,NA,NA,7,1,NA
+TU_Yildiz,TU Yildiz,4,0,9,NA,NA,NA,20,1,NA
+Tuega,Tuega,3,0,4,NA,NA,NA,1,1,NA
+TUEV_Rheinland,TÜV Rheinland,3,0,1,NA,NA,NA,1,1,NA
+TUI,TUI,3,0,13,NA,NA,NA,1,1,NA
+TUM,Technische Universität München,4,0,9,NA,NA,NA,1,1,NA
+Tyco_Healthcare,tyco Healthcare,3,0,2,NA,NA,NA,28,1,NA
+UBS,UBS,3,0,5,NA,NA,NA,9,1,NA
+Udit_Batra,Udit Batra,2,1,3,49,1,0,10,0,4
+UDS,Universität des Saarlandes,3,0,9,NA,NA,NA,1,1,NA
+Ulrik_Svensson,Ulrik Svensson,2,1,7,59,1,0,8,1,1
+Under_Armour,Under Armour,3,0,3,NA,NA,NA,3,0,NA
+Unicredit,Unicredit,3,0,5,NA,NA,NA,19,1,NA
+Unilever,Unilever,3,0,3,NA,NA,NA,2,1,NA
+Union_Bank_Switzerlland,Union Bank Switzerland,3,0,5,NA,NA,NA,9,1,NA
+Uniper,Uniper,3,0,4,NA,NA,NA,1,1,NA
+Universidad_Central_de_Venezuela,Universidad Central de Venezuela,4,0,9,NA,NA,NA,16,0,NA
+Universitaet_Alcala,Universität Alcala,4,0,9,NA,NA,NA,11,1,NA
+Universitaet_Barcelona,Universität Barcelona,4,0,9,NA,NA,NA,11,1,NA
+Universitaet_Berlin,Universität Berlin,4,0,9,NA,NA,NA,1,1,NA
+Universitaet_Bochum,Universität Bochum,4,0,9,NA,NA,NA,1,1,NA
+Universitaet_Bonn,Universität Bonn,4,0,9,NA,NA,NA,1,1,NA
+Universitaet_Cottbus,Universität Cottbus,4,0,9,NA,NA,NA,3,0,NA
+Universitaet_Danzig,Universität Danzig,4,0,9,NA,NA,NA,22,1,NA
+Universitaet_der_Bundeswehr,Universität der Bundeswehr,4,0,9,NA,NA,NA,1,1,NA
+Universitaet_Duesseldorf,Universität Düsseldorf,4,0,9,NA,NA,NA,1,1,NA
+Universitaet_Duisburg,Universität Duisburg,4,0,9,NA,NA,NA,1,1,NA
+Universitaet_Essen,Universität Essen,4,0,9,NA,NA,NA,1,1,NA
+Universitaet_Frankfurt,Universität Frankfurt,4,0,9,NA,NA,NA,1,1,NA
+Universitaet_Freiburg,Universität Freiburg,4,0,9,NA,NA,NA,1,1,NA
+Universitaet_Giessen,Universität Gießen,4,0,9,NA,NA,NA,1,1,NA
+Universitaet_Goettingen,Universität Göttingen,4,0,9,NA,NA,NA,1,1,NA
+Universitaet_Grenoble,Universität Grenoble,4,0,9,NA,NA,NA,6,1,NA
+Universitaet_Groningen,Universität Groningen,4,0,9,NA,NA,NA,4,1,NA
+Universitaet_Hamburg,Universität Hamburg,4,0,9,NA,NA,NA,1,1,NA
+Universitaet_Hannover,Universität Hannover,4,0,9,NA,NA,NA,1,1,NA
+Universitaet_Heidelberg,Universität Heidelberg,4,0,9,NA,NA,NA,1,1,NA
+Universitaet_Hohenheim,Universität Hohenheim,4,0,9,NA,NA,NA,1,1,NA
+Universitaet_Innsbruck,Universität Innsbruck,4,0,9,NA,NA,NA,7,1,NA
+Universitaet_Instanbul,Universität Istanbul,4,0,9,NA,NA,NA,20,1,NA
+Universitaet_Kiel,Universität Kiel,4,0,9,NA,NA,NA,1,1,NA
+Universitaet_Koeln,Universität Köln,4,0,9,NA,NA,NA,1,1,NA
+Universitaet_Konstanz,Universität Konstanz,4,0,9,NA,NA,NA,1,1,NA
+Universitaet_Lausanne,Universität Lausanne,4,0,9,NA,NA,NA,9,1,NA
+Universitaet_Leiden,Universität Leiden,4,0,9,NA,NA,NA,4,1,NA
+Universitaet_Magdeburg,Universität Magdeburg,4,0,9,NA,NA,NA,1,1,NA
+Universitaet_Mannheim,Universität Mannheim,4,0,9,NA,NA,NA,1,1,NA
+Universitaet_Marburg,Universität Marburg,4,0,9,NA,NA,NA,1,1,NA
+Universitaet_Muenster,Universität Münster,4,0,9,NA,NA,NA,1,1,NA
+Universitaet_Nantes,Universität Nantes,4,0,9,NA,NA,NA,6,1,NA
+Universitaet_Nuernberg,Universität Nürnberg,4,0,9,NA,NA,NA,1,1,NA
+Universitaet_Osnabrueck,Universität Osnabrück,4,0,9,NA,NA,NA,1,1,NA
+Universitaet_Paderborn,Universität Paderborn,4,0,9,NA,NA,NA,1,1,NA
+Universitaet_Padua,Universität Padua,4,0,9,NA,NA,NA,19,1,NA
+Universitaet_Regensburg,Universität Regensburg,4,0,9,NA,NA,NA,1,1,NA
+Universitaet_Saarland,Universität Saarland,4,0,9,NA,NA,NA,1,1,NA
+Universitaet_StGallen,Universität St. Gallen,4,0,9,NA,NA,NA,9,1,NA
+Universitaet_Stuttgart,Universität Stuttgart,4,0,9,NA,NA,NA,1,1,NA
+Universitaet_Trier,Universität Trier,4,0,9,NA,NA,NA,1,1,NA
+Universitaet_Tuebingen,Universität Tübingen,4,0,9,NA,NA,NA,1,1,NA
+Universitaet_Wien,Universität Wien,4,0,9,NA,NA,NA,7,1,NA
+Universitaet_Wuerzburg,Universität Würzburg,4,0,9,NA,NA,NA,1,1,NA
+Universitaet_Zuerich,Universität Zürich,4,0,9,NA,NA,NA,9,1,NA
+Universitaet_Bordeaux,Universität Bordeaux,4,0,9,NA,NA,NA,6,1,NA
+University_Boston,University Boston,4,0,9,NA,NA,NA,3,0,NA
+University_College_London,University College London,4,0,9,NA,NA,NA,2,1,NA
+University_Leeds,University Leeds,4,0,9,NA,NA,NA,2,1,NA
+University_Misssouri_Rolla,University Misssouri Rolla,4,0,9,NA,NA,NA,3,0,NA
+University_of_Antwerpen,University of Antwerp,4,0,9,NA,NA,NA,14,1,NA
+University_of_California,University of California,4,0,9,NA,NA,NA,3,0,NA
+University_of_Camebridge,University of Camebridge,4,0,9,NA,NA,NA,2,1,NA
+University_of_Dehli,University of Dehli,4,0,9,NA,NA,NA,10,0,NA
+University_of_Delaware,University of Delaware,4,0,9,NA,NA,NA,3,0,NA
+University_of_Dundee,University of Dundee,4,0,9,NA,NA,NA,2,1,NA
+University_of_Durham,University of Durham,4,0,9,NA,NA,NA,2,1,NA
+University_of_Hull,University of Hull,4,0,9,NA,NA,NA,2,1,NA
+University_of_Iowa,University of Iowa,4,0,9,NA,NA,NA,3,0,NA
+University_of_Miami,University of Miami,4,0,9,NA,NA,NA,3,0,NA
+University_of_Minnesota,University of Minnesota,4,0,9,NA,NA,NA,3,0,NA
+University_of_New_South_Wales,Universität Neusüdwales,4,0,9,NA,NA,NA,13,0,NA
+University_of_North_Carolina,University of North Carolina,4,0,9,NA,NA,NA,3,0,NA
+University_of_Oxford,University of Oxford,4,0,9,NA,NA,NA,2,1,NA
+University_of_Pensilvania,University of Pensilvania,4,0,9,NA,NA,NA,3,0,NA
+University_of_Reading,University of Reading,4,0,9,NA,NA,NA,2,1,NA
+University_of_Rio_de_Janeiro,University of Rio de Janeiro,4,0,9,NA,NA,NA,23,1,NA
+University_of_Texas,University of Texas,4,0,9,NA,NA,NA,3,0,NA
+University_of_Utah,University of Utah,4,0,9,NA,NA,NA,3,0,NA
+University_Swansea,University Swansea,4,0,9,NA,NA,NA,2,1,NA
+University_Sydney,University Sydney,4,0,9,NA,NA,NA,13,0,NA
+University_Tasmania,University Tasmania,4,0,9,NA,NA,NA,13,0,NA
+University_Warwick,University Warwick,4,0,9,NA,NA,NA,2,1,NA
+VAMED,VAMED,3,0,2,NA,NA,NA,7,1,NA
+Vanderbilt_University,Vanderbilt University,4,0,9,NA,NA,NA,3,0,NA
+VBW,Verband der Bayrische Wirtschaft,5,0,11,NA,NA,NA,1,1,NA
+VCI,Verband der Chemischen Industrie,5,0,2,NA,NA,NA,1,1,NA
+VDA,Verband der Automobilindustrie,5,0,1,NA,NA,NA,1,1,NA
+VEBA,VEBA,3,0,4,NA,NA,NA,1,1,NA
+Vejle_Business_School,Vejle Business School,4,0,9,NA,NA,NA,12,1,NA
+VFB_Oldenburg,VfB Oldenburg,5,0,10,NA,NA,NA,1,1,NA
+VfB_Stuttgart,VfB Stuttgart,5,0,10,NA,NA,NA,1,1,NA
+VfL_Wolfsburg,VfL Wolfsburg,5,0,10,NA,NA,NA,1,1,NA
+VIAG,VIAG,3,0,4,NA,NA,NA,1,1,NA
+Victoria_Park_AB,Victoria Park,3,0,5,NA,NA,NA,8,1,NA
+Villanova_University,Villanova University,4,0,9,NA,NA,NA,3,0,NA
+Vincent_Warnery,Vincent Warnery,2,1,3,52,1,0,6,1,1
+Vodafone,Vodafone,3,0,15,NA,NA,NA,2,1,NA
+Volkswagen,Volkswagen,3,1,1,NA,NA,NA,1,1,NA
+Volkswagen_Belegschaftsstiftung,VW Belegschaftsstiftung,5,0,1,NA,NA,NA,1,1,NA
+Vonovia,Vonovia,3,1,5,NA,NA,NA,1,1,NA
+Vorwerk,Vorwerk,3,0,3,NA,NA,NA,1,1,NA
+VU_Amsterdam,VU Universität Amsterdam,4,0,9,NA,NA,NA,4,1,NA
+Wayne_T_Smith,Wayne T. Smith,2,1,2,60,1,0,3,0,4
+WCHN,Western Connecticut Health Network,3,0,2,NA,NA,NA,3,0,NA
+Weir_Strachan_Henshaw,Weir Strachan & Henshaw,3,0,6,NA,NA,NA,2,1,NA
+Werner_Baumann,Werner Baumann,1,1,2,58,1,0,1,1,1
+Werner_Steinmueller,Werner Steinmüller,2,1,5,66,1,0,1,1,3
+Western_Digital_Corporation,Western Digital Corporation ,3,0,3,NA,NA,NA,3,0,NA
+Westig,ZAPP Gruppe,3,0,6,NA,NA,NA,1,1,NA
+WestLB,WestLB,3,0,5,NA,NA,NA,1,1,NA
+Wharton_Business_School,Wharton Business School,4,0,9,NA,NA,NA,3,0,NA
+WHU_Koblenz,Wirtschaftshochschule Koblenz,4,0,8,NA,NA,NA,1,1,NA
+Wilfried_Porth,Wilfried Porth,2,1,1,61,1,0,1,1,3
+William_Valle,William Valle,2,1,2,60,1,0,3,0,1
+Wintershall,Wintershall,3,0,2,NA,NA,NA,1,1,NA
+Wirecard,Wirecard,3,1,5,NA,NA,NA,1,1,NA
+Wirtschaftbeirat_DW,Wirtschaftbeirat Deutsche Welle,5,0,11,NA,NA,NA,1,1,NA
+Wissensfabrik,Wissensfabrik – Unternehmen für Deutschland e. V.,5,0,11,NA,NA,NA,1,1,NA
+Wolfgang_Nickl,Wolfgang Nickl,2,1,2,51,1,0,1,1,1
+Wolfgang_Schaefer,Wolfgang Schäfer,2,1,1,61,1,0,1,1,1
+Woman_Leaders_Global_Forum,Women Leaders Global Forum,5,0,NA,NA,NA,NA,26,1,NA
+World_Energy_Council,World Energy Council,5,0,4,NA,NA,NA,2,1,NA
+WU_Wien,WU Wien,4,0,9,NA,NA,NA,7,1,NA
+WZGE,Wittenberg-Zentrum für Globale Ethik,5,0,11,NA,NA,NA,1,1,NA
+Xaviers_College_Calcutta,Xaviers College Calcutta,4,0,9,NA,NA,NA,10,0,NA
+XENIOS,XENIOS,3,0,2,NA,NA,NA,1,1,NA
+Xerox,Xerox,3,0,8,NA,NA,NA,3,0,NA
+ZF_Friedrichshafen,ZF Friedrichshafen,3,0,1,NA,NA,NA,1,1,NA
+Zhengrong_Liu,Zhengrong Liu,2,1,3,52,1,0,15,0,6
+Zimmer_Holdings,Zimmer Biomet,3,0,2,NA,NA,NA,3,0,NA
+ZIRP,Zukunftsinitiative Rheinland-Pfalz,5,0,11,NA,NA,NA,1,1,NA
+ZMRN,Zukunft Metropolregion Rhein-Neckar,5,0,11,NA,NA,NA,1,1,NA
+Zuari_Cement,Zuari Cement,3,0,6,NA,NA,NA,1,1,NA
+ZVEI,Zentralverband Elektrotechnik- und Elektronikindustrie,5,0,8,NA,NA,NA,1,1,NA
