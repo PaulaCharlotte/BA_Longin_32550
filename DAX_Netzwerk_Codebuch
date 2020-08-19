@@ -13,7 +13,7 @@ Die Daten stammen von den offiziellen Steckbriefen der Vorstände, veröffentlic
 
 Das Netzwerk ist ein gerichtetes Two-Mode Netzwerk. 
 
-Insgesamt umfasst das Gesamtnetzwerk 798 Akteure. Darunter befinden sich 34 CEOs/Vorstandsvorsitzende, 158 Vorstandsmitglieder, 339 Unternehmen und 169 Bildungseinrichtungen. Im Netzwerk werden 1147 Beziehungen zwischen den Akteuren abgebildet.
+Insgesamt umfasst das Gesamtnetzwerk 798 Akteure. Darunter befinden sich 34 CEOs/Vorstandsvorsitzende, 158 Vorstandsmitglieder, 340 Unternehmen und 175 Bildungseinrichtungen. Im Netzwerk werden 1147 Beziehungen zwischen den Akteuren abgebildet.
 
 
 #EDGE-Attribute
@@ -44,12 +44,9 @@ Offizieller Name des Akteurs
 1= CEO/ Vorstandsvorsitzender 
 2= Vorstand 
 3= Unternehmen
-4= Bildungseinrichtung
-5= Verband oder Stiftung
-6= Forschungszentrum
-7= Akademische Verbindung/ Studentenverbindung
-8= Partei/ Gewerkschaft
-9= Internationale Arbeitsorganisation/ Staatl. Einrichtung
+4= Bildungseinrichtung und Forschungszentren
+5= Verband, Verein oder Stiftung
+
 
 'dax'
 0= nein
