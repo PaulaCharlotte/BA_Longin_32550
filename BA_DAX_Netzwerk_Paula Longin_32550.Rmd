@@ -1,0 +1,491 @@
+---
+title: 'Bachelorarbeit: Gut vernetzt - Eine Netzwerkanalyse der Vorstände im DAX'
+author: "Paula Longin | pl047@hdm-stuttgart.de"
+date: 'Sommersemester 2020, Abgabe: 21.08.2020'
+output: word_document
+---
+
+## Datenzugang
+
+Der Datensatz spiegelt die im Geschäftsjahr 2019 zum Vorstand berufenen DAX Vorstände, ihren beruflichen sowie akademischen Werdegang und ihre öffentlich einsehbaren Mitgliedschaften wieder.
+
+Die Daten stammen von den offiziellen Steckbriefen der Vorstände, veröffentlicht durch die DAX Unternehmen. Zudem wurden sie mit Einträgen im Munzinger Archiv, Wikipedia, Bloomberg und LinkedIn abgeglichen.
+
+Das Netzwerk ist ein gerichtetes Two-Mode Netzwerk. 
+
+Insgesamt umfasst das Gesamtnetzwerk 798 Akteure. Darunter befinden sich 34 CEOs/Vorstandsvorsitzende, 158 Vorstandsmitglieder, 340 Unternehmen und 175 Bildungseinrichtungen. Im Netzwerk werden 1147 Beziehungen zwischen den Akteuren abgebildet.
+
+## Codebuch
+Das [Codebuch](https://github.com/PaulaCharlotte/BA_Longin_32550/blob/master/DAX_Netzwerk_Codebuch) beschreibt die Variablen, Relationen und Attribute des Netzwerks und ist ebenfalls auf Github hinterlegt.
+
+```{r Erstellung des Gesamtnetzwerks}
+
+library(igraph)
+
+#Einlesen der Edge- und Nodelist
+el<- read.csv("https://raw.githubusercontent.com/PaulaCharlotte/BA_Longin_32550/master/DAX_Netzwerk_Edgeglist.csv", header=T, as.is=T, sep = ",")
+nl<- read.csv("https://raw.githubusercontent.com/PaulaCharlotte/BA_Longin_32550/master/DAX_Netzwerk_Nodelist.csv", header=T, as.is=T, sep = ",")
+
+head(el)
+head(nl)
+
+is.data.frame(el)
+is.data.frame(nl)
+
+dn<-graph.data.frame(el,directed = TRUE, vertices = nl)
+dn
+
+#Gesamtnetzwerk (erster Eindruck)
+plot(dn)
+
+#Attribute des Gesamtnetzwerks
+E(dn)
+V(dn)
+edge_attr(dn)
+vertex_attr(dn)
+```
+Zusammenfassende Beschreibung des Gesamtnetzwerk:
+- Netzwerkdichte: 0.001803442
+
+- Netzwerkdiameter: 1
+
+- Zentralität:
+  Betweenness-Zentralität:  0.155385 / Theoretisches Maximum: 252813182
+    Akteure mit höchster BZ:   Fresenius                                       LMU                                   Daimler 
+                              16456.00657                               16905.02629                               17076.84107 
+                              Hauke_Stars                                       BDI                    Fresenius_Medical_Care 
+                              19016.00433                               20987.26774                               35160.61010 
+                            Stephan_Sturm                             Deutsche_Bank                                  McKinsey 
+                              35945.80692                               41552.16308                               51127.22598 
+- Degree-Zentralität:
+    All: 0.01075709 /Theoretisches Maximum: 1270418
+    IN-Degree: 0.02329066 /Theoretisches Maximum: 636006
+    OUT-Degree: 0.02203596 /Theoretisches Maximum: 636006 
+    
+- Closeness-Zentralität:
+  Akteure mit höchster CZ:      
+  
+  Martin_Brudermueller                  Helene_von_Roeder                       Hauke_Stars 
+                                1.598351e-06                          1.600389e-06                            1.602433e-06 
+                               Rolf_Schmitz                           Theodor_Weimer                          Michael_Heinz 
+                               1.604482e-06                           1.608596e-06                            1.610661e-06 
+    
+- Pfaddistanzen:
+  Durchschnittliche Pfaddistanz: 5.767725
+  Längste Pfaddistanz: 10 / Von 360_Treasury_Systems zu McGill_University  
+  
+```{r Beschreibung des Gesamtnetzwerks}
+# Berechnung der Netzwerkmaße
+is.simple(dn)
+
+#Komponenten
+is.connected(dn)
+components(dn)
+
+#Dichte des Netzwerks (Density)
+edge_density(dn, loops=FALSE)
+
+#Umfang des Netzwerks
+diameter(dn)
+
+#Zentralität
+  #Betweenness-Zentralität
+  centr_betw(dn, directed=FALSE)
+  bz <-betweenness(dn)
+  sort(bz)
+  which.max(bz)
+   
+  #Degree-Zentralität
+  centralization.degree(dn, mode = "all")
+  centralization.degree(dn, mode = "in")
+  centralization.degree(dn, mode = "out")
+  
+    #In-Degree Zentralität von Institutionen
+  ind_dn <-(degree(dn, mode = "in", normalized = T))
+  ind_dn
+
+  sort(ind_dn) #Um zu sehen welche Institutionen die Meisten eingehenden   Beziehungen hat
+ 
+  #Outdegree von Personen
+  
+  out_dn <-(degree(dn, mode = "out", normalized = T))
+  out_dn
+  sort(out_dn)
+  which.max(out_dn)
+  
+  #Closeness-Zentralität
+  cz <- closeness(dn)
+  sort(cz)
+  
+  centr_clo(dn, mode = "all")$centralization
+
+#Pfaddistanzen (Distance)
+mean_distance(dn, directed = FALSE)
+diameter(dn, directed = FALSE)
+farthest_vertices(dn, directed = FALSE)
+```
+```{r Geschlechterverteilung und Homphilie im Gesamtnetzwerk}
+
+Vorstand <-induced_subgraph(dn, V(dn)[which (type == 2)]) 
+Vorstand
+
+Vorstandsvorsitzende <-induced_subgraph(dn, V(dn)[which (type == 1)]) 
+Vorstandsvorsitzende
+
+Vorstandsfrauen <- delete_vertices(Vorstand, V(Vorstand)[which (sex == 1)])
+Vorstandsfrauen
+
+Vorstandsmaenner<- delete_vertices(Vorstand, V(Vorstand)[which (sex == 2)])
+Vorstandsmaenner
+
+Vorstandsvorsitzende_frauen <- delete_vertices(Vorstandsvorsitzende, V(Vorstandsvorsitzende)[which (sex == 1)])
+Vorstandsvorsitzende_frauen
+
+Vorstandsvorsitzende_maenner <- delete_vertices(Vorstandsvorsitzende, V(Vorstandsvorsitzende)[which (sex == 2)])
+Vorstandsvorsitzende_maenner
+
+##Homophilie
+??assortativity
+list.vertex.attributes(dn)
+assortativity_degree(dn, directed = TRUE)
+
+assortativity_nominal(dn, V(dn)$industry, directed=TRUE)
+assortativity_nominal(dn, V(dn)$sex, directed=TRUE)
+assortativity_nominal(dn, V(dn)$doctorate, directed=TRUE)
+assortativity_nominal(dn, V(dn)$heritage, directed=TRUE)
+assortativity_nominal(dn, V(dn)$study, directed=TRUE)
+```
+Verteilung Männer und Frauen im Gesamtnetzwerk:
+ 
+ Vorstände: G: 158 , davon W: 25 / M: 133
+ Vorstandsvorsitzende: G:34 , davon W: 1 / M:33
+ 
+```{r Visualisierung des Gesamtnetzwerks}
+#Visualisierung des Gesamtnetzwerks nach Degree-Zentralität
+##(nur zur Übersicht, daher ohne Beschriftungen)
+
+E(dn)$curved=.3 
+E(dn)$vertex.label.family="Arial"
+
+#Personen
+
+V(dn)[V(dn)$type == 1]$shape <- "circle"
+V(dn)[V(dn)$type == 1]$color <- "deepskyblue4"
+
+V(dn)[V(dn)$type == 2]$shape <- "circle"
+V(dn)[V(dn)$type == 2]$color <- "deepskyblue3"
+
+#Organisationen/Firmen
+V(dn)[V(dn)$type == 3]$shape <- "square"
+V(dn)[V(dn)$type == 3]$color <- "chartreuse4"
+
+#Bildungseinrichtungen und Forschungszentren
+V(dn)[V(dn)$type ==4]$shape<-"square"
+V(dn)[V(dn)$type == 4]$color <- "azure4"
+
+#Soziales/Vereine/Verbände
+V(dn)[V(dn)$type == 5]$shape <- "square"
+V(dn)[V(dn)$type == 5]$color <- "azure2"
+
+
+V(dn)$frame.color <- "black"
+
+
+
+#Erste Ansicht
+l <- layout_with_kk(dn)
+plot(dn,asp=0,
+     vertex.label=NA,
+     vertex.size=3,
+     edge.arrow.width=0.2,
+     layout = l*4,
+     main="Gesamtnetzwerk DAX Vorstände",
+     sub="Two-Mode Netzwerk: Kreis: Personen, Quadrate: Institutionen")
+
+#Ansicht nach Degree-Verteilung
+l <- layout_nicely(dn)
+
+plot(dn,asp=0,
+     vertex.label=NA,
+     vertex.size=degree,
+     edge.arrow.width=0.2,
+     layout = l,
+     main="Gesamtnetzwerk DAX Vorstände",
+     sub="Two-Mode Netzwerk: Kreis: Personen, Quadrate: Institutionen")
+
+```
+Clusteranalyse Gesamtnetzwerk:
+Modularität: 0.5953991
+Cluster: 92
+Größte Cluster: Nr5 (181 Mitglieder), Nr.2 (63 Mitglieder)
+
+```{r Clusteranalyse}
+#Analyse des Gesamtnetzwerks
+clusters(dn)
+cl_dn <- cluster_walktrap(dn)
+membership(cl_dn)
+modularity(cl_dn)
+communities(cl_dn)
+
+size_cldn <- sizes(cl_dn)
+size_cldn 
+sort(size_cldn)
+
+communities(cl_dn)[[5]]
+communities(cl_dn)[[2]]
+
+dn <- simplify(dn, remove.multiple=T)
+E(dn)$curved=0.2
+l <- layout_with_kk(dn)
+
+plot(cl_dn, as.undirected(dn),
+     vertex.frame.color="white",
+     vertex.label=NA,
+     edge.arrow.size=.01,
+     vertex.size=1,
+     edge.color = adjustcolor("black", alpha=0.3),
+     main="Cluster im Gesamtnetzwerk DAX",
+     asp=0,
+     layout=l,
+     rescale=T)
+```
+```{r Brücken und Broker im Gesamtnetzwerk}
+#Broker nach Betweenness
+betweenness(dn)
+which.max(betweenness(dn))
+
+
+library(influenceR)
+
+dn_br<-bridging(dn) #Brücken im Netzwerk (von, nach)
+dn_br
+
+broker <-ens(dn) #Broker im Netzwerk
+sort(broker)
+which.max(broker)
+which.min(broker)
+
+library(igraph)
+
+l <- layout.auto(dn)
+l <- norm_coords(l, ymin=-10, ymax=10, xmin=-10, xmax=10)
+
+plot(dn, asp=0,
+     vertex.label=NA,
+     vertex.size=broker,
+     edge.arrow.width=0.1,
+     layout = l*50,
+     main="Gesamtnetzwerk nach Brokern")
+
+```
+
+```{r Teilnetzwerk1: Arbeitsbeziehungen}
+#Arbeitsbeziehungen
+
+work <- delete.edges(dn,E(dn)$relation==3)
+work <-delete.vertices(dn, V(dn)[which(type==4)])
+work
+work_s <-simplify(work)
+
+#Dichte des Netzwerks (Density)
+edge_density(work_s, loops=FALSE)
+
+#Umfang des Netzwerks
+diameter(work_s)
+
+#Zentralität
+  #Betweenness-Zentralität
+  centr_betw(work_s, directed=FALSE)
+  bz <-betweenness(work_s)
+  sort(work_s)
+  which.max(work_s)
+
+V(work_s)[V(work_s)$type == 1]$shape <- "circle"
+V(work)[V(work)$type == 1]$color <- "azure3"
+
+V(work_s)[V(work_s)$type == 2]$shape <- "circle"
+V(work_s)[V(work_s)$type == 2]$color <- "azure3"
+
+l <- layout_nicely(work_s)
+
+plot(work_s,asp=0,
+     vertex.size=3,
+     vertex.label=NA,
+     edge.arrow.width=0,
+     layout = l,
+     main="Teilnetzwerk - Arbeitsbeziehungen")
+```
+
+
+```{r Teilnetzwerk Bildung}
+#Akademische Beziehungen im Gesamtnetzwerk
+education <- delete.vertices(dn, V(dn)$type ==3)
+education<- delete.vertices(dn, V(dn)$type ==5)
+education<- delete.edges(dn, V(dn)$relation ==6)
+education<- delete.edges(dn, V(dn)$relation ==5)
+education<- delete.edges(dn, V(dn)$relation ==4)
+education
+plot(education)
+
+edge_density(education, loops=FALSE)
+
+#Umfang des Netzwerks
+diameter(education)
+ind_ed <-(degree (education, mode = "in", normalized = T))
+ind_ed
+
+sort(ind_ed) 
+which.max(ind_ed) #Um zu sehen welches Unternehmen die Meisten eingehenden Beziehungen hat
+
+
+out_ed <-(degree(education, mode = "out", normalized = T))
+out_ed
+sort(out_ed) 
+which.max(out_ed) #Um zu sehen welcher DAX-Vorstand am besten vernetzt ist
+
+V(education)[V(education)$type ==4]$shape<-"square"
+V(education)[V(education)$type == 4]$color <-adjustcolor("azure4", alpha=0.3)
+
+V(education)$label <- ifelse(V(education)$type == 4,V(education)$label, NA)
+
+l <- layout.auto(education)
+l <- norm_coords(l, ymin=-10, ymax=10, xmin=-10, xmax=10)
+
+plot(education,asp=0,
+     vertex.size=ind_ed*600,
+     #vertex.label=NA,
+     edge.arrow.width=0,
+     ertex.label.family="Arial",
+     vertex.label.dist=0.5,
+     vertex.label.cex=0.3,
+     vertex.label.degree=-pi/4,
+     vertex.label.color="black",
+     layout = l*100,
+     main="Teilnetzwerk - Bildung")
+```
+
+```{r Reines "DAX-Netz", paged.print=TRUE}
+dax <-delete.vertices(dn, V(dn)[which(dax==0)])
+dax
+
+is.connected(dax)
+components(dax)
+
+#Dichte des Netzwerks (Density)
+edge_density(dax, loops=FALSE)
+
+#Umfang des Netzwerks
+diameter(dax)
+ind_dax <-(degree(dax, mode = "in", normalized = T))
+ind_dax
+
+sort(ind_dax) 
+which.max(ind_dax) #Um zu sehen welches Unternehmen die Meisten eingehenden Beziehungen hat
+
+
+out_dax <-(degree(dax, mode = "out", normalized = T))
+out_dax
+sort(out_dax) 
+which.max(out_dax) #Um zu sehen welcher DAX-Vorstand am besten vernetzt ist
+
+#Betweenness zur Suche nach Brokern
+centr_betw(dax, directed=FALSE)
+  bz_dax <-betweenness(dax)
+  sort(bz_dax)
+  which.max(bz_dax)
+
+#Pfaddistanzen (Distance)
+mean_distance(dax, directed = FALSE)
+diameter(dax, directed = FALSE)
+farthest_vertices(dax, directed = FALSE)
+
+
+#Fokus auf Unternehmen
+l <- layout_with_kk(dax)
+l <- norm_coords(l, ymin=-1, ymax=1, xmin=-1, xmax=1)
+V(dax)$label <- ifelse(V(dax)$type == 3,V(dax)$label, NA)
+
+plot(dax,
+     edge.arrow.size=0, 
+     edge.width=0.3,
+     edge.color = "grey",
+     vertex.label.font=2,
+     vertex.size=degree,
+     vertex.frame.color="white",
+     vertex.label.family="Arial",
+     vertex.label.dist=0.5,
+     vertex.label.cex=0.6,
+     vertex.label.degree=-pi/4,
+     vertex.label.color="black",
+     layout=l*3, 
+     asp=0,
+     main="DAX-Unternehmen im Geschäftsjahr 2019")
+
+#Fokus auf Personen 
+
+
+  E(dax)[E(dax)$relation ==4]$edge.color<-"green"
+
+l <- layout_with_kk(dax)
+l <- norm_coords(l, ymin=-1, ymax=1, xmin=-1, xmax=1)
+
+plot(dax,
+     edge.arrow.size=0, 
+     edge.width=0.3,
+     #edge.color = "grey",
+     vertex.label.font=1,
+     vertex.size= out_dax*500,
+     vertex.frame.color="white",
+     vertex.label.family="Arial",
+     vertex.label.dist=0.5,
+     vertex.label.cex=0.6,
+     vertex.label.degree=-pi/4,
+     vertex.label.color="black",
+     layout=l*3, 
+     asp=0,
+     main="DAX-Vorstände im Geschäftsjahr 2019")
+
+
+#Cluster im DAX
+clusters(dax)
+cl_dax <- cluster_walktrap(dax)
+membership(cl_dax)
+modularity(cl_dax)
+communities(cl_dax)
+
+size_cldax <- sizes(cl_dax)
+size_cldax 
+sort(size_cldax)
+
+communities(cl_dax)[[4]]
+communities(cl_dax)[[3]]
+
+dax <- simplify(dax, remove.multiple=T)
+E(dax)$curved=0.3
+l <- layout_with_kk(dax)
+
+plot(cl_dax, as.undirected(dax),
+     vertex.frame.color="white",
+     vertex.label=NA,
+     edge.arrow.size=.01,
+     vertex.size=3,
+     edge.color = "grey",
+     main="Cluster im DAX-Netzwerk",
+     asp=0,
+     layout=l,
+     rescale=T)
+
+#Homophilie im DAX
+
+list.vertex.attributes(dax)
+assortativity_degree(dax, directed = TRUE)
+
+assortativity_nominal(dax, V(dax)$industry, directed=TRUE)
+assortativity_nominal(dax, V(dax)$sex, directed=TRUE)
+assortativity_nominal(dax, V(dax)$heritage, directed=TRUE)
+
+
+```
+
+## Datenmaterial und Skript
+[Alle Daten zur Studie](https://github.com/PaulaCharlotte/BA_Longin_32550)
